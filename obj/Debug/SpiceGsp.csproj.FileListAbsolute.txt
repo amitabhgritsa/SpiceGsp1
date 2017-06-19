@@ -1,0 +1,9 @@
+c:\users\amitabh\documents\visual studio 2015\Projects\SpiceGsp\SpiceGsp\bin\Debug\SpiceGsp.exe.config
+c:\users\amitabh\documents\visual studio 2015\Projects\SpiceGsp\SpiceGsp\bin\Debug\SpiceGsp.exe
+c:\users\amitabh\documents\visual studio 2015\Projects\SpiceGsp\SpiceGsp\bin\Debug\SpiceGsp.pdb
+c:\users\amitabh\documents\visual studio 2015\Projects\SpiceGsp\SpiceGsp\obj\Debug\SpiceGsp.csprojResolveAssemblyReference.cache
+c:\users\amitabh\documents\visual studio 2015\Projects\SpiceGsp\SpiceGsp\obj\Debug\SpiceGsp.Form1.resources
+c:\users\amitabh\documents\visual studio 2015\Projects\SpiceGsp\SpiceGsp\obj\Debug\SpiceGsp.Properties.Resources.resources
+c:\users\amitabh\documents\visual studio 2015\Projects\SpiceGsp\SpiceGsp\obj\Debug\SpiceGsp.csproj.GenerateResource.Cache
+c:\users\amitabh\documents\visual studio 2015\Projects\SpiceGsp\SpiceGsp\obj\Debug\SpiceGsp.exe
+c:\users\amitabh\documents\visual studio 2015\Projects\SpiceGsp\SpiceGsp\obj\Debug\SpiceGsp.pdb
