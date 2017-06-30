@@ -33,8 +33,33 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevExpress.Data.v16.1, Version=16.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v16.1.Core, Version=16.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v16.1, Version=16.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="EnvDTE, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="Syncfusion.Chart.Base, Version=15.2460.0.40, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+    <Reference Include="Syncfusion.Chart.Windows, Version=15.2460.0.40, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+    <Reference Include="Syncfusion.Grid.Base, Version=15.2460.0.40, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+    <Reference Include="Syncfusion.Grid.Grouping.Base, Version=15.2460.0.40, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+    <Reference Include="Syncfusion.Grid.Grouping.Windows, Version=15.2460.0.40, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+    <Reference Include="Syncfusion.Grid.Windows, Version=15.2460.0.40, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+    <Reference Include="Syncfusion.Grouping.Base, Version=15.2460.0.40, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+    <Reference Include="Syncfusion.Maps.Windows, Version=15.2460.0.40, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+    <Reference Include="Syncfusion.Shared.Base, Version=15.2460.0.40, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+    <Reference Include="Syncfusion.Shared.Windows, Version=15.2460.0.40, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+    <Reference Include="Syncfusion.SpellChecker.Base, Version=15.2460.0.40, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+    <Reference Include="Syncfusion.Tools.Base, Version=15.2460.0.40, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+    <Reference Include="Syncfusion.Tools.Windows, Version=15.2460.0.40, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,18 +69,118 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationClient" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="UIAutomationTypes" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Add_Company.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Add_Company.Designer.cs">
+      <DependentUpon>Add_Company.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_GSTIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_GSTIN.Designer.cs">
+      <DependentUpon>Add_GSTIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BeforeFillingCheckList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BeforeFillingCheckList.Designer.cs">
+      <DependentUpon>BeforeFillingCheckList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DashBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashBoard.Designer.cs">
+      <DependentUpon>DashBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataItemOfCSV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataItemOfCSV.Designer.cs">
+      <DependentUpon>DataItemOfCSV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forgot_Password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forgot_Password.Designer.cs">
+      <DependentUpon>Forgot_Password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomeScreen.Designer.cs">
+      <DependentUpon>HomeScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registration.Designer.cs">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Before_AfterUploadingCSV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Before_AfterUploadingCSV.Designer.cs">
+      <DependentUpon>Before_AfterUploadingCSV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_csv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_csv.Designer.cs">
+      <DependentUpon>Add_csv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GSTR1_Summary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSTR1_Summary.Designer.cs">
+      <DependentUpon>GSTR1_Summary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AfterProceedingToGSTR1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AfterProceedingToGSTR1.Designer.cs">
+      <DependentUpon>AfterProceedingToGSTR1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllGSTR1ReturnStatuses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllGSTR1ReturnStatuses.Designer.cs">
+      <DependentUpon>AllGSTR1ReturnStatuses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Add_Company.resx">
+      <DependentUpon>Add_Company.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_GSTIN.resx">
+      <DependentUpon>Add_GSTIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BeforeFillingCheckList.resx">
+      <DependentUpon>BeforeFillingCheckList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataItemOfCSV.resx">
+      <DependentUpon>DataItemOfCSV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forgot_Password.resx">
+      <DependentUpon>Forgot_Password.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeScreen.resx">
+      <DependentUpon>HomeScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -65,7 +190,23 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Registration.resx">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Before_AfterUploadingCSV.resx">
+      <DependentUpon>Before_AfterUploadingCSV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_csv.resx">
+      <DependentUpon>Add_csv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSTR1_Summary.resx">
+      <DependentUpon>GSTR1_Summary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AfterProceedingToGSTR1.resx">
+      <DependentUpon>AfterProceedingToGSTR1.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -78,6 +219,54 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spice_gsp21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sellbutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sell-icon-blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\purchase-icon-blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\total-tax.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tax-amount.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\total-amount.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\roundbutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

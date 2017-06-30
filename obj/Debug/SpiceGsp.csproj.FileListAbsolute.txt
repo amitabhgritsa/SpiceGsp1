@@ -1,9 +1,54 @@
 c:\users\amitabh\documents\visual studio 2015\Projects\SpiceGsp\SpiceGsp\bin\Debug\SpiceGsp.exe.config
 c:\users\amitabh\documents\visual studio 2015\Projects\SpiceGsp\SpiceGsp\bin\Debug\SpiceGsp.exe
 c:\users\amitabh\documents\visual studio 2015\Projects\SpiceGsp\SpiceGsp\bin\Debug\SpiceGsp.pdb
-c:\users\amitabh\documents\visual studio 2015\Projects\SpiceGsp\SpiceGsp\obj\Debug\SpiceGsp.csprojResolveAssemblyReference.cache
 c:\users\amitabh\documents\visual studio 2015\Projects\SpiceGsp\SpiceGsp\obj\Debug\SpiceGsp.Form1.resources
 c:\users\amitabh\documents\visual studio 2015\Projects\SpiceGsp\SpiceGsp\obj\Debug\SpiceGsp.Properties.Resources.resources
 c:\users\amitabh\documents\visual studio 2015\Projects\SpiceGsp\SpiceGsp\obj\Debug\SpiceGsp.csproj.GenerateResource.Cache
 c:\users\amitabh\documents\visual studio 2015\Projects\SpiceGsp\SpiceGsp\obj\Debug\SpiceGsp.exe
 c:\users\amitabh\documents\visual studio 2015\Projects\SpiceGsp\SpiceGsp\obj\Debug\SpiceGsp.pdb
+C:\Users\amitabh\documents\visual studio 2015\Projects\SpiceGsp\SpiceGsp\obj\Debug\SpiceGsp.login.resources
+C:\Users\amitabh\Documents\Visual Studio 2015\Projects\SpiceGsp\SpiceGsp\obj\Debug\SpiceGsp.csprojResolveAssemblyReference.cache
+E:\Hemant\SpiceGsp\SpiceGsp\bin\Debug\SpiceGsp.exe.config
+E:\Hemant\SpiceGsp\SpiceGsp\bin\Debug\SpiceGsp.exe
+E:\Hemant\SpiceGsp\SpiceGsp\bin\Debug\SpiceGsp.pdb
+E:\Hemant\SpiceGsp\SpiceGsp\bin\Debug\DevExpress.Data.v16.1.dll
+E:\Hemant\SpiceGsp\SpiceGsp\bin\Debug\DevExpress.Printing.v16.1.Core.dll
+E:\Hemant\SpiceGsp\SpiceGsp\bin\Debug\DevExpress.Utils.v16.1.dll
+E:\Hemant\SpiceGsp\SpiceGsp\bin\Debug\DevExpress.Pdf.v16.1.Core.dll
+E:\Hemant\SpiceGsp\SpiceGsp\bin\Debug\DevExpress.Data.v16.1.xml
+E:\Hemant\SpiceGsp\SpiceGsp\bin\Debug\DevExpress.Printing.v16.1.Core.xml
+E:\Hemant\SpiceGsp\SpiceGsp\bin\Debug\DevExpress.Utils.v16.1.xml
+E:\Hemant\SpiceGsp\SpiceGsp\bin\Debug\DevExpress.Pdf.v16.1.Core.xml
+E:\Hemant\SpiceGsp\SpiceGsp\bin\Debug\de\DevExpress.Data.v16.1.resources.dll
+E:\Hemant\SpiceGsp\SpiceGsp\bin\Debug\es\DevExpress.Data.v16.1.resources.dll
+E:\Hemant\SpiceGsp\SpiceGsp\bin\Debug\ja\DevExpress.Data.v16.1.resources.dll
+E:\Hemant\SpiceGsp\SpiceGsp\bin\Debug\ru\DevExpress.Data.v16.1.resources.dll
+E:\Hemant\SpiceGsp\SpiceGsp\bin\Debug\de\DevExpress.Printing.v16.1.Core.resources.dll
+E:\Hemant\SpiceGsp\SpiceGsp\bin\Debug\es\DevExpress.Printing.v16.1.Core.resources.dll
+E:\Hemant\SpiceGsp\SpiceGsp\bin\Debug\ja\DevExpress.Printing.v16.1.Core.resources.dll
+E:\Hemant\SpiceGsp\SpiceGsp\bin\Debug\ru\DevExpress.Printing.v16.1.Core.resources.dll
+E:\Hemant\SpiceGsp\SpiceGsp\bin\Debug\de\DevExpress.Utils.v16.1.resources.dll
+E:\Hemant\SpiceGsp\SpiceGsp\bin\Debug\es\DevExpress.Utils.v16.1.resources.dll
+E:\Hemant\SpiceGsp\SpiceGsp\bin\Debug\ja\DevExpress.Utils.v16.1.resources.dll
+E:\Hemant\SpiceGsp\SpiceGsp\bin\Debug\ru\DevExpress.Utils.v16.1.resources.dll
+E:\Hemant\SpiceGsp\SpiceGsp\bin\Debug\de\DevExpress.Pdf.v16.1.Core.resources.dll
+E:\Hemant\SpiceGsp\SpiceGsp\bin\Debug\es\DevExpress.Pdf.v16.1.Core.resources.dll
+E:\Hemant\SpiceGsp\SpiceGsp\bin\Debug\ja\DevExpress.Pdf.v16.1.Core.resources.dll
+E:\Hemant\SpiceGsp\SpiceGsp\bin\Debug\ru\DevExpress.Pdf.v16.1.Core.resources.dll
+E:\Hemant\SpiceGsp\SpiceGsp\obj\Debug\SpiceGsp.Add_Company.resources
+E:\Hemant\SpiceGsp\SpiceGsp\obj\Debug\SpiceGsp.Add_GSTIN.resources
+E:\Hemant\SpiceGsp\SpiceGsp\obj\Debug\SpiceGsp.BeforeFillingCheckList.resources
+E:\Hemant\SpiceGsp\SpiceGsp\obj\Debug\SpiceGsp.Forgot_Password.resources
+E:\Hemant\SpiceGsp\SpiceGsp\obj\Debug\SpiceGsp.GSTR1_Summary.resources
+E:\Hemant\SpiceGsp\SpiceGsp\obj\Debug\SpiceGsp.HomeScreen.resources
+E:\Hemant\SpiceGsp\SpiceGsp\obj\Debug\SpiceGsp.login.resources
+E:\Hemant\SpiceGsp\SpiceGsp\obj\Debug\SpiceGsp.Properties.Resources.resources
+E:\Hemant\SpiceGsp\SpiceGsp\obj\Debug\SpiceGsp.Registration.resources
+E:\Hemant\SpiceGsp\SpiceGsp\obj\Debug\SpiceGsp.Before_AfterUploadingCSV.resources
+E:\Hemant\SpiceGsp\SpiceGsp\obj\Debug\SpiceGsp.Add_csv.resources
+E:\Hemant\SpiceGsp\SpiceGsp\obj\Debug\SpiceGsp.csproj.GenerateResource.Cache
+E:\Hemant\SpiceGsp\SpiceGsp\obj\Debug\SpiceGsp.exe
+E:\Hemant\SpiceGsp\SpiceGsp\obj\Debug\SpiceGsp.pdb
+E:\Hemant\SpiceGsp\SpiceGsp\obj\Debug\SpiceGsp.csprojResolveAssemblyReference.cache
+E:\Hemant\SpiceGsp\SpiceGsp\obj\Debug\SpiceGsp.AfterProceedingToGSTR1.resources
+E:\Hemant\SpiceGsp\SpiceGsp\obj\Debug\SpiceGsp.DataItemOfCSV.resources
