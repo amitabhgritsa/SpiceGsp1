@@ -44,8 +44,10 @@
             this.button1 = new System.Windows.Forms.Button();
             this.btn_login = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btn_cross = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -70,14 +72,14 @@
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(469, 350);
+            this.panel1.Size = new System.Drawing.Size(468, 316);
             this.panel1.TabIndex = 2;
             // 
             // panel4
             // 
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel4.Controls.Add(this.radioButton2);
-            this.panel4.Location = new System.Drawing.Point(32, 128);
+            this.panel4.Location = new System.Drawing.Point(32, 106);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(36, 26);
             this.panel4.TabIndex = 17;
@@ -96,7 +98,7 @@
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.radioButton1);
-            this.panel3.Location = new System.Drawing.Point(32, 188);
+            this.panel3.Location = new System.Drawing.Point(32, 166);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(36, 26);
             this.panel3.TabIndex = 16;
@@ -115,9 +117,9 @@
             // 
             this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel8.Controls.Add(this.label4);
-            this.panel8.Location = new System.Drawing.Point(98, 245);
+            this.panel8.Location = new System.Drawing.Point(98, 223);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(340, 26);
+            this.panel8.Size = new System.Drawing.Size(331, 26);
             this.panel8.TabIndex = 15;
             // 
             // label4
@@ -134,9 +136,9 @@
             // 
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel7.Controls.Add(this.label2);
-            this.panel7.Location = new System.Drawing.Point(98, 128);
+            this.panel7.Location = new System.Drawing.Point(98, 106);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(340, 26);
+            this.panel7.Size = new System.Drawing.Size(331, 26);
             this.panel7.TabIndex = 12;
             // 
             // label2
@@ -153,9 +155,9 @@
             // 
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel6.Controls.Add(this.label3);
-            this.panel6.Location = new System.Drawing.Point(98, 188);
+            this.panel6.Location = new System.Drawing.Point(98, 166);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(340, 26);
+            this.panel6.Size = new System.Drawing.Size(331, 26);
             this.panel6.TabIndex = 14;
             // 
             // label3
@@ -172,7 +174,7 @@
             // 
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel5.Controls.Add(this.radioButton3);
-            this.panel5.Location = new System.Drawing.Point(32, 245);
+            this.panel5.Location = new System.Drawing.Point(32, 223);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(36, 26);
             this.panel5.TabIndex = 13;
@@ -192,7 +194,7 @@
             this.button1.BackColor = System.Drawing.Color.Red;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Location = new System.Drawing.Point(353, 298);
+            this.button1.Location = new System.Drawing.Point(353, 264);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(85, 35);
             this.button1.TabIndex = 10;
@@ -204,7 +206,7 @@
             this.btn_login.BackColor = System.Drawing.Color.RoyalBlue;
             this.btn_login.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_login.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_login.Location = new System.Drawing.Point(254, 298);
+            this.btn_login.Location = new System.Drawing.Point(254, 264);
             this.btn_login.Name = "btn_login";
             this.btn_login.Size = new System.Drawing.Size(85, 35);
             this.btn_login.TabIndex = 3;
@@ -215,12 +217,27 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.RoyalBlue;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.button2);
+            this.panel2.Controls.Add(this.btn_cross);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Location = new System.Drawing.Point(-1, -1);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(467, 116);
+            this.panel2.Size = new System.Drawing.Size(467, 90);
             this.panel2.TabIndex = 0;
+            // 
+            // btn_cross
+            // 
+            this.btn_cross.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btn_cross.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_cross.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_cross.Location = new System.Drawing.Point(443, -1);
+            this.btn_cross.Name = "btn_cross";
+            this.btn_cross.Size = new System.Drawing.Size(21, 21);
+            this.btn_cross.TabIndex = 3;
+            this.btn_cross.Text = "X";
+            this.btn_cross.UseVisualStyleBackColor = false;
+            this.btn_cross.Click += new System.EventHandler(this.btn_cross_Click);
             // 
             // label5
             // 
@@ -243,6 +260,16 @@
             this.label1.Size = new System.Drawing.Size(194, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "GSTR1 Filing Checklist";
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(391, 19);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 4;
+            this.button2.Text = "Next";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // BeforeFillingCheckList
             // 
@@ -293,5 +320,7 @@
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.Button btn_cross;
+        private System.Windows.Forms.Button button2;
     }
 }

@@ -300,7 +300,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::SpiceGsp.Properties.Resources.login_logo;
+            this.pictureBox2.Image = global::SpiceGsp.Properties.Resources.logo;
             this.pictureBox2.Location = new System.Drawing.Point(286, 20);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(106, 65);

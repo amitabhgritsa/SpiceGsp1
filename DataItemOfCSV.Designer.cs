@@ -29,8 +29,29 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.link_toSave = new System.Windows.Forms.LinkLabel();
             this.btn_submitToGSTIN = new System.Windows.Forms.Button();
             this.tabControl2 = new System.Windows.Forms.TabControl();
@@ -38,6 +59,12 @@
             this.tabControl3 = new System.Windows.Forms.TabControl();
             this.B2B = new System.Windows.Forms.TabPage();
             this.dataGridView31 = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn175 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn176 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn177 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn178 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn179 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn180 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.B2BA = new System.Windows.Forms.TabPage();
             this.dataGridView32 = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn181 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -328,34 +355,18 @@
             this.dataGridViewTextBoxColumn28 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn29 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn30 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.dataGridViewTextBoxColumn175 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn176 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn177 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn178 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn179 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn180 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btn_cross = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.tabControl2.SuspendLayout();
             this.Invoices.SuspendLayout();
             this.tabControl3.SuspendLayout();
@@ -441,58 +452,276 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
             this.tabPage28.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).BeginInit();
-            this.panel4.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel6.SuspendLayout();
-            this.panel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.RoyalBlue;
-            this.panel1.Controls.Add(this.btn_cross);
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1148, 43);
+            this.panel1.Size = new System.Drawing.Size(1214, 43);
             this.panel1.TabIndex = 0;
+            // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.Location = new System.Drawing.Point(1139, 11);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Next";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(471, 15);
+            this.label1.Location = new System.Drawing.Point(511, 15);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(154, 15);
             this.label1.TabIndex = 1;
             this.label1.Text = "GSTIN:27GSPMH1721G1ZU";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::SpiceGsp.Properties.Resources.logo;
+            this.pictureBox1.Location = new System.Drawing.Point(70, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(71, 37);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // panel2
             // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel2.Controls.Add(this.panel3);
             this.panel2.Controls.Add(this.link_toSave);
             this.panel2.Controls.Add(this.btn_submitToGSTIN);
             this.panel2.Controls.Add(this.tabControl2);
-            this.panel2.Controls.Add(this.panel4);
-            this.panel2.Controls.Add(this.panel5);
-            this.panel2.Controls.Add(this.panel6);
-            this.panel2.Controls.Add(this.panel7);
             this.panel2.Location = new System.Drawing.Point(1, 49);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1141, 381);
+            this.panel2.Size = new System.Drawing.Size(1213, 461);
             this.panel2.TabIndex = 1;
+            // 
+            // panel3
+            // 
+            this.panel3.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.panel3.Controls.Add(this.panel7);
+            this.panel3.Controls.Add(this.panel6);
+            this.panel3.Controls.Add(this.panel4);
+            this.panel3.Controls.Add(this.panel5);
+            this.panel3.Location = new System.Drawing.Point(34, 21);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1150, 93);
+            this.panel3.TabIndex = 8;
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.Tomato;
+            this.panel7.Controls.Add(this.label4);
+            this.panel7.Controls.Add(this.label3);
+            this.panel7.Controls.Add(this.label5);
+            this.panel7.Controls.Add(this.label13);
+            this.panel7.Controls.Add(this.pictureBox5);
+            this.panel7.Location = new System.Drawing.Point(0, 3);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(260, 86);
+            this.panel7.TabIndex = 17;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label4.Location = new System.Drawing.Point(36, 41);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(37, 19);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "0.00";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(3, 31);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(0, 13);
+            this.label3.TabIndex = 2;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(20, 56);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(0, 13);
+            this.label5.TabIndex = 4;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label13.Location = new System.Drawing.Point(3, 16);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(124, 15);
+            this.label13.TabIndex = 1;
+            this.label13.Text = "Total Taxable Amount";
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::SpiceGsp.Properties.Resources.total_tax;
+            this.pictureBox5.Location = new System.Drawing.Point(191, 20);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(55, 51);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 0;
+            this.pictureBox5.TabStop = false;
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.panel6.Controls.Add(this.label6);
+            this.panel6.Controls.Add(this.label7);
+            this.panel6.Controls.Add(this.pictureBox2);
+            this.panel6.Location = new System.Drawing.Point(299, 3);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(260, 86);
+            this.panel6.TabIndex = 18;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label6.Location = new System.Drawing.Point(40, 41);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(37, 19);
+            this.label6.TabIndex = 7;
+            this.label6.Text = "0.00";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label7.Location = new System.Drawing.Point(3, 16);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(107, 15);
+            this.label7.TabIndex = 6;
+            this.label7.Text = "Total IGST Amount";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::SpiceGsp.Properties.Resources.tax_amount;
+            this.pictureBox2.Location = new System.Drawing.Point(186, 19);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(54, 50);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
+            // panel4
+            // 
+            this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel4.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.panel4.Controls.Add(this.label2);
+            this.panel4.Controls.Add(this.label10);
+            this.panel4.Controls.Add(this.pictureBox4);
+            this.panel4.Location = new System.Drawing.Point(897, 3);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(260, 86);
+            this.panel4.TabIndex = 20;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label2.Location = new System.Drawing.Point(33, 41);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(37, 19);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "0.00";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label10.Location = new System.Drawing.Point(3, 16);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(110, 15);
+            this.label10.TabIndex = 7;
+            this.label10.Text = "Total SGST Amount";
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::SpiceGsp.Properties.Resources.total_amount;
+            this.pictureBox4.Location = new System.Drawing.Point(189, 19);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(49, 51);
+            this.pictureBox4.TabIndex = 0;
+            this.pictureBox4.TabStop = false;
+            // 
+            // panel5
+            // 
+            this.panel5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel5.BackColor = System.Drawing.Color.Goldenrod;
+            this.panel5.Controls.Add(this.label9);
+            this.panel5.Controls.Add(this.label8);
+            this.panel5.Controls.Add(this.pictureBox3);
+            this.panel5.Location = new System.Drawing.Point(598, 3);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(260, 86);
+            this.panel5.TabIndex = 19;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label9.Location = new System.Drawing.Point(33, 41);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(37, 19);
+            this.label9.TabIndex = 8;
+            this.label9.Text = "0.00";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label8.Location = new System.Drawing.Point(3, 16);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(111, 15);
+            this.label8.TabIndex = 7;
+            this.label8.Text = "Total CGST Amount";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::SpiceGsp.Properties.Resources.total_amount;
+            this.pictureBox3.Location = new System.Drawing.Point(191, 19);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(49, 51);
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
             // 
             // link_toSave
             // 
+            this.link_toSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.link_toSave.AutoSize = true;
             this.link_toSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.link_toSave.Location = new System.Drawing.Point(13, 365);
+            this.link_toSave.Location = new System.Drawing.Point(4, 440);
             this.link_toSave.Name = "link_toSave";
             this.link_toSave.Size = new System.Drawing.Size(132, 16);
             this.link_toSave.TabIndex = 26;
@@ -501,10 +730,11 @@
             // 
             // btn_submitToGSTIN
             // 
+            this.btn_submitToGSTIN.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_submitToGSTIN.BackColor = System.Drawing.Color.RoyalBlue;
             this.btn_submitToGSTIN.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_submitToGSTIN.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_submitToGSTIN.Location = new System.Drawing.Point(967, 348);
+            this.btn_submitToGSTIN.Location = new System.Drawing.Point(1055, 426);
             this.btn_submitToGSTIN.Name = "btn_submitToGSTIN";
             this.btn_submitToGSTIN.Size = new System.Drawing.Size(149, 33);
             this.btn_submitToGSTIN.TabIndex = 25;
@@ -513,16 +743,19 @@
             // 
             // tabControl2
             // 
+            this.tabControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl2.Controls.Add(this.Invoices);
             this.tabControl2.Controls.Add(this.Credit_Notes);
             this.tabControl2.Controls.Add(this.Nil);
             this.tabControl2.Controls.Add(this.Export_And_Import);
             this.tabControl2.Controls.Add(this.Advance_Tax);
             this.tabControl2.Controls.Add(this.Tax_Paid);
-            this.tabControl2.Location = new System.Drawing.Point(11, 143);
+            this.tabControl2.Location = new System.Drawing.Point(34, 134);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(1105, 188);
+            this.tabControl2.Size = new System.Drawing.Size(1149, 286);
             this.tabControl2.TabIndex = 24;
             // 
             // Invoices
@@ -531,23 +764,26 @@
             this.Invoices.Location = new System.Drawing.Point(4, 22);
             this.Invoices.Name = "Invoices";
             this.Invoices.Padding = new System.Windows.Forms.Padding(3);
-            this.Invoices.Size = new System.Drawing.Size(1097, 162);
+            this.Invoices.Size = new System.Drawing.Size(1141, 260);
             this.Invoices.TabIndex = 0;
-            this.Invoices.Text = "Invoices";
+            this.Invoices.Text = "          Invoices          ";
             this.Invoices.UseVisualStyleBackColor = true;
             // 
             // tabControl3
             // 
+            this.tabControl3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl3.Controls.Add(this.B2B);
             this.tabControl3.Controls.Add(this.B2BA);
             this.tabControl3.Controls.Add(this.B2CL);
             this.tabControl3.Controls.Add(this.B2CLA);
             this.tabControl3.Controls.Add(this.B2CS);
             this.tabControl3.Controls.Add(this.B2CSA);
-            this.tabControl3.Location = new System.Drawing.Point(6, 6);
+            this.tabControl3.Location = new System.Drawing.Point(3, 3);
             this.tabControl3.Name = "tabControl3";
             this.tabControl3.SelectedIndex = 0;
-            this.tabControl3.Size = new System.Drawing.Size(1087, 150);
+            this.tabControl3.Size = new System.Drawing.Size(1132, 251);
             this.tabControl3.TabIndex = 0;
             // 
             // B2B
@@ -556,9 +792,9 @@
             this.B2B.Location = new System.Drawing.Point(4, 22);
             this.B2B.Name = "B2B";
             this.B2B.Padding = new System.Windows.Forms.Padding(3);
-            this.B2B.Size = new System.Drawing.Size(1079, 124);
+            this.B2B.Size = new System.Drawing.Size(1124, 225);
             this.B2B.TabIndex = 0;
-            this.B2B.Text = "B2B";
+            this.B2B.Text = "          B2B          ";
             this.B2B.UseVisualStyleBackColor = true;
             // 
             // dataGridView31
@@ -571,10 +807,47 @@
             this.dataGridViewTextBoxColumn178,
             this.dataGridViewTextBoxColumn179,
             this.dataGridViewTextBoxColumn180});
-            this.dataGridView31.Location = new System.Drawing.Point(-17, 10);
+            this.dataGridView31.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView31.Location = new System.Drawing.Point(3, 3);
             this.dataGridView31.Name = "dataGridView31";
-            this.dataGridView31.Size = new System.Drawing.Size(1093, 105);
+            this.dataGridView31.Size = new System.Drawing.Size(1118, 219);
             this.dataGridView31.TabIndex = 1;
+            // 
+            // dataGridViewTextBoxColumn175
+            // 
+            this.dataGridViewTextBoxColumn175.HeaderText = "Sr No.";
+            this.dataGridViewTextBoxColumn175.Name = "dataGridViewTextBoxColumn175";
+            this.dataGridViewTextBoxColumn175.Width = 174;
+            // 
+            // dataGridViewTextBoxColumn176
+            // 
+            this.dataGridViewTextBoxColumn176.HeaderText = "Customer_GSTIN";
+            this.dataGridViewTextBoxColumn176.Name = "dataGridViewTextBoxColumn176";
+            this.dataGridViewTextBoxColumn176.Width = 174;
+            // 
+            // dataGridViewTextBoxColumn177
+            // 
+            this.dataGridViewTextBoxColumn177.HeaderText = "Vendor Name";
+            this.dataGridViewTextBoxColumn177.Name = "dataGridViewTextBoxColumn177";
+            this.dataGridViewTextBoxColumn177.Width = 174;
+            // 
+            // dataGridViewTextBoxColumn178
+            // 
+            this.dataGridViewTextBoxColumn178.HeaderText = "Invoice No.";
+            this.dataGridViewTextBoxColumn178.Name = "dataGridViewTextBoxColumn178";
+            this.dataGridViewTextBoxColumn178.Width = 174;
+            // 
+            // dataGridViewTextBoxColumn179
+            // 
+            this.dataGridViewTextBoxColumn179.HeaderText = "Invoice Date";
+            this.dataGridViewTextBoxColumn179.Name = "dataGridViewTextBoxColumn179";
+            this.dataGridViewTextBoxColumn179.Width = 178;
+            // 
+            // dataGridViewTextBoxColumn180
+            // 
+            this.dataGridViewTextBoxColumn180.HeaderText = "Taxable Amount";
+            this.dataGridViewTextBoxColumn180.Name = "dataGridViewTextBoxColumn180";
+            this.dataGridViewTextBoxColumn180.Width = 178;
             // 
             // B2BA
             // 
@@ -582,9 +855,9 @@
             this.B2BA.Location = new System.Drawing.Point(4, 22);
             this.B2BA.Name = "B2BA";
             this.B2BA.Padding = new System.Windows.Forms.Padding(3);
-            this.B2BA.Size = new System.Drawing.Size(1064, 124);
+            this.B2BA.Size = new System.Drawing.Size(1124, 216);
             this.B2BA.TabIndex = 1;
-            this.B2BA.Text = "B2BA";
+            this.B2BA.Text = "          B2BA         ";
             this.B2BA.UseVisualStyleBackColor = true;
             // 
             // dataGridView32
@@ -597,9 +870,10 @@
             this.dataGridViewTextBoxColumn184,
             this.dataGridViewTextBoxColumn185,
             this.dataGridViewTextBoxColumn186});
-            this.dataGridView32.Location = new System.Drawing.Point(-17, 10);
+            this.dataGridView32.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView32.Location = new System.Drawing.Point(3, 3);
             this.dataGridView32.Name = "dataGridView32";
-            this.dataGridView32.Size = new System.Drawing.Size(1090, 105);
+            this.dataGridView32.Size = new System.Drawing.Size(1118, 210);
             this.dataGridView32.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn181
@@ -643,9 +917,9 @@
             this.B2CL.Controls.Add(this.dataGridView33);
             this.B2CL.Location = new System.Drawing.Point(4, 22);
             this.B2CL.Name = "B2CL";
-            this.B2CL.Size = new System.Drawing.Size(1064, 124);
+            this.B2CL.Size = new System.Drawing.Size(1124, 216);
             this.B2CL.TabIndex = 2;
-            this.B2CL.Text = "B2CL";
+            this.B2CL.Text = "          B2CL          ";
             this.B2CL.UseVisualStyleBackColor = true;
             // 
             // dataGridView33
@@ -658,9 +932,10 @@
             this.dataGridViewTextBoxColumn190,
             this.dataGridViewTextBoxColumn191,
             this.dataGridViewTextBoxColumn192});
-            this.dataGridView33.Location = new System.Drawing.Point(-17, 10);
+            this.dataGridView33.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView33.Location = new System.Drawing.Point(0, 0);
             this.dataGridView33.Name = "dataGridView33";
-            this.dataGridView33.Size = new System.Drawing.Size(1090, 105);
+            this.dataGridView33.Size = new System.Drawing.Size(1124, 216);
             this.dataGridView33.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn187
@@ -704,9 +979,9 @@
             this.B2CLA.Controls.Add(this.dataGridView34);
             this.B2CLA.Location = new System.Drawing.Point(4, 22);
             this.B2CLA.Name = "B2CLA";
-            this.B2CLA.Size = new System.Drawing.Size(1064, 124);
+            this.B2CLA.Size = new System.Drawing.Size(1124, 216);
             this.B2CLA.TabIndex = 3;
-            this.B2CLA.Text = "B2CLA";
+            this.B2CLA.Text = "          B2CLA          ";
             this.B2CLA.UseVisualStyleBackColor = true;
             // 
             // dataGridView34
@@ -719,9 +994,10 @@
             this.dataGridViewTextBoxColumn196,
             this.dataGridViewTextBoxColumn197,
             this.dataGridViewTextBoxColumn198});
-            this.dataGridView34.Location = new System.Drawing.Point(-17, 10);
+            this.dataGridView34.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView34.Location = new System.Drawing.Point(0, 0);
             this.dataGridView34.Name = "dataGridView34";
-            this.dataGridView34.Size = new System.Drawing.Size(1090, 105);
+            this.dataGridView34.Size = new System.Drawing.Size(1124, 216);
             this.dataGridView34.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn193
@@ -765,9 +1041,9 @@
             this.B2CS.Controls.Add(this.dataGridView35);
             this.B2CS.Location = new System.Drawing.Point(4, 22);
             this.B2CS.Name = "B2CS";
-            this.B2CS.Size = new System.Drawing.Size(1064, 124);
+            this.B2CS.Size = new System.Drawing.Size(1124, 216);
             this.B2CS.TabIndex = 4;
-            this.B2CS.Text = "B2CS";
+            this.B2CS.Text = "          B2CS          ";
             this.B2CS.UseVisualStyleBackColor = true;
             // 
             // dataGridView35
@@ -780,9 +1056,10 @@
             this.dataGridViewTextBoxColumn202,
             this.dataGridViewTextBoxColumn203,
             this.dataGridViewTextBoxColumn204});
-            this.dataGridView35.Location = new System.Drawing.Point(-17, 10);
+            this.dataGridView35.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView35.Location = new System.Drawing.Point(0, 0);
             this.dataGridView35.Name = "dataGridView35";
-            this.dataGridView35.Size = new System.Drawing.Size(1090, 105);
+            this.dataGridView35.Size = new System.Drawing.Size(1124, 216);
             this.dataGridView35.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn199
@@ -826,9 +1103,9 @@
             this.B2CSA.Controls.Add(this.dataGridView36);
             this.B2CSA.Location = new System.Drawing.Point(4, 22);
             this.B2CSA.Name = "B2CSA";
-            this.B2CSA.Size = new System.Drawing.Size(1064, 124);
+            this.B2CSA.Size = new System.Drawing.Size(1124, 216);
             this.B2CSA.TabIndex = 5;
-            this.B2CSA.Text = "B2CSA";
+            this.B2CSA.Text = "          B2CSA          ";
             this.B2CSA.UseVisualStyleBackColor = true;
             // 
             // dataGridView36
@@ -841,9 +1118,10 @@
             this.dataGridViewTextBoxColumn208,
             this.dataGridViewTextBoxColumn209,
             this.dataGridViewTextBoxColumn210});
-            this.dataGridView36.Location = new System.Drawing.Point(-17, 10);
+            this.dataGridView36.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView36.Location = new System.Drawing.Point(0, 0);
             this.dataGridView36.Name = "dataGridView36";
-            this.dataGridView36.Size = new System.Drawing.Size(1090, 105);
+            this.dataGridView36.Size = new System.Drawing.Size(1124, 216);
             this.dataGridView36.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn205
@@ -888,23 +1166,26 @@
             this.Credit_Notes.Location = new System.Drawing.Point(4, 22);
             this.Credit_Notes.Name = "Credit_Notes";
             this.Credit_Notes.Padding = new System.Windows.Forms.Padding(3);
-            this.Credit_Notes.Size = new System.Drawing.Size(1076, 162);
+            this.Credit_Notes.Size = new System.Drawing.Size(1141, 251);
             this.Credit_Notes.TabIndex = 1;
-            this.Credit_Notes.Text = "Credit Notes";
+            this.Credit_Notes.Text = "          Credit Notes          ";
             this.Credit_Notes.UseVisualStyleBackColor = true;
             // 
             // tabControl4
             // 
+            this.tabControl4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl4.Controls.Add(this.b2bCreditNotes);
             this.tabControl4.Controls.Add(this.b2baCreditNotes);
             this.tabControl4.Controls.Add(this.b2clCreditNotes);
             this.tabControl4.Controls.Add(this.b2claCreditNotes);
             this.tabControl4.Controls.Add(this.b2csCreditNotes);
             this.tabControl4.Controls.Add(this.b2csaCreditNotes);
-            this.tabControl4.Location = new System.Drawing.Point(3, 6);
+            this.tabControl4.Location = new System.Drawing.Point(3, 3);
             this.tabControl4.Name = "tabControl4";
             this.tabControl4.SelectedIndex = 0;
-            this.tabControl4.Size = new System.Drawing.Size(1065, 150);
+            this.tabControl4.Size = new System.Drawing.Size(1132, 242);
             this.tabControl4.TabIndex = 1;
             // 
             // b2bCreditNotes
@@ -913,7 +1194,7 @@
             this.b2bCreditNotes.Location = new System.Drawing.Point(4, 22);
             this.b2bCreditNotes.Name = "b2bCreditNotes";
             this.b2bCreditNotes.Padding = new System.Windows.Forms.Padding(3);
-            this.b2bCreditNotes.Size = new System.Drawing.Size(1057, 124);
+            this.b2bCreditNotes.Size = new System.Drawing.Size(1124, 216);
             this.b2bCreditNotes.TabIndex = 0;
             this.b2bCreditNotes.Text = "B2B";
             this.b2bCreditNotes.UseVisualStyleBackColor = true;
@@ -928,9 +1209,10 @@
             this.dataGridViewTextBoxColumn142,
             this.dataGridViewTextBoxColumn143,
             this.dataGridViewTextBoxColumn144});
-            this.dataGridView25.Location = new System.Drawing.Point(-17, 10);
+            this.dataGridView25.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView25.Location = new System.Drawing.Point(3, 3);
             this.dataGridView25.Name = "dataGridView25";
-            this.dataGridView25.Size = new System.Drawing.Size(1090, 105);
+            this.dataGridView25.Size = new System.Drawing.Size(1118, 210);
             this.dataGridView25.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn139
@@ -975,7 +1257,7 @@
             this.b2baCreditNotes.Location = new System.Drawing.Point(4, 22);
             this.b2baCreditNotes.Name = "b2baCreditNotes";
             this.b2baCreditNotes.Padding = new System.Windows.Forms.Padding(3);
-            this.b2baCreditNotes.Size = new System.Drawing.Size(1057, 124);
+            this.b2baCreditNotes.Size = new System.Drawing.Size(1124, 216);
             this.b2baCreditNotes.TabIndex = 1;
             this.b2baCreditNotes.Text = "B2BA";
             this.b2baCreditNotes.UseVisualStyleBackColor = true;
@@ -990,9 +1272,10 @@
             this.dataGridViewTextBoxColumn148,
             this.dataGridViewTextBoxColumn149,
             this.dataGridViewTextBoxColumn150});
-            this.dataGridView26.Location = new System.Drawing.Point(-17, 10);
+            this.dataGridView26.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView26.Location = new System.Drawing.Point(3, 3);
             this.dataGridView26.Name = "dataGridView26";
-            this.dataGridView26.Size = new System.Drawing.Size(1090, 105);
+            this.dataGridView26.Size = new System.Drawing.Size(1118, 210);
             this.dataGridView26.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn145
@@ -1036,7 +1319,7 @@
             this.b2clCreditNotes.Controls.Add(this.dataGridView27);
             this.b2clCreditNotes.Location = new System.Drawing.Point(4, 22);
             this.b2clCreditNotes.Name = "b2clCreditNotes";
-            this.b2clCreditNotes.Size = new System.Drawing.Size(1057, 124);
+            this.b2clCreditNotes.Size = new System.Drawing.Size(1124, 216);
             this.b2clCreditNotes.TabIndex = 2;
             this.b2clCreditNotes.Text = "B2CL";
             this.b2clCreditNotes.UseVisualStyleBackColor = true;
@@ -1051,9 +1334,10 @@
             this.dataGridViewTextBoxColumn154,
             this.dataGridViewTextBoxColumn155,
             this.dataGridViewTextBoxColumn156});
-            this.dataGridView27.Location = new System.Drawing.Point(-17, 10);
+            this.dataGridView27.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView27.Location = new System.Drawing.Point(0, 0);
             this.dataGridView27.Name = "dataGridView27";
-            this.dataGridView27.Size = new System.Drawing.Size(1090, 105);
+            this.dataGridView27.Size = new System.Drawing.Size(1124, 216);
             this.dataGridView27.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn151
@@ -1097,7 +1381,7 @@
             this.b2claCreditNotes.Controls.Add(this.dataGridView28);
             this.b2claCreditNotes.Location = new System.Drawing.Point(4, 22);
             this.b2claCreditNotes.Name = "b2claCreditNotes";
-            this.b2claCreditNotes.Size = new System.Drawing.Size(1057, 124);
+            this.b2claCreditNotes.Size = new System.Drawing.Size(1124, 216);
             this.b2claCreditNotes.TabIndex = 3;
             this.b2claCreditNotes.Text = "B2CLA";
             this.b2claCreditNotes.UseVisualStyleBackColor = true;
@@ -1112,9 +1396,10 @@
             this.dataGridViewTextBoxColumn160,
             this.dataGridViewTextBoxColumn161,
             this.dataGridViewTextBoxColumn162});
-            this.dataGridView28.Location = new System.Drawing.Point(-17, 10);
+            this.dataGridView28.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView28.Location = new System.Drawing.Point(0, 0);
             this.dataGridView28.Name = "dataGridView28";
-            this.dataGridView28.Size = new System.Drawing.Size(1090, 105);
+            this.dataGridView28.Size = new System.Drawing.Size(1124, 216);
             this.dataGridView28.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn157
@@ -1158,7 +1443,7 @@
             this.b2csCreditNotes.Controls.Add(this.dataGridView29);
             this.b2csCreditNotes.Location = new System.Drawing.Point(4, 22);
             this.b2csCreditNotes.Name = "b2csCreditNotes";
-            this.b2csCreditNotes.Size = new System.Drawing.Size(1057, 124);
+            this.b2csCreditNotes.Size = new System.Drawing.Size(1124, 216);
             this.b2csCreditNotes.TabIndex = 4;
             this.b2csCreditNotes.Text = "B2CS";
             this.b2csCreditNotes.UseVisualStyleBackColor = true;
@@ -1173,9 +1458,10 @@
             this.dataGridViewTextBoxColumn166,
             this.dataGridViewTextBoxColumn167,
             this.dataGridViewTextBoxColumn168});
-            this.dataGridView29.Location = new System.Drawing.Point(-17, 10);
+            this.dataGridView29.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView29.Location = new System.Drawing.Point(0, 0);
             this.dataGridView29.Name = "dataGridView29";
-            this.dataGridView29.Size = new System.Drawing.Size(1090, 105);
+            this.dataGridView29.Size = new System.Drawing.Size(1124, 216);
             this.dataGridView29.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn163
@@ -1219,7 +1505,7 @@
             this.b2csaCreditNotes.Controls.Add(this.dataGridView30);
             this.b2csaCreditNotes.Location = new System.Drawing.Point(4, 22);
             this.b2csaCreditNotes.Name = "b2csaCreditNotes";
-            this.b2csaCreditNotes.Size = new System.Drawing.Size(1057, 124);
+            this.b2csaCreditNotes.Size = new System.Drawing.Size(1124, 216);
             this.b2csaCreditNotes.TabIndex = 5;
             this.b2csaCreditNotes.Text = "B2CSA";
             this.b2csaCreditNotes.UseVisualStyleBackColor = true;
@@ -1234,9 +1520,10 @@
             this.dataGridViewTextBoxColumn172,
             this.dataGridViewTextBoxColumn173,
             this.dataGridViewTextBoxColumn174});
-            this.dataGridView30.Location = new System.Drawing.Point(-17, 10);
+            this.dataGridView30.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView30.Location = new System.Drawing.Point(0, 0);
             this.dataGridView30.Name = "dataGridView30";
-            this.dataGridView30.Size = new System.Drawing.Size(1090, 105);
+            this.dataGridView30.Size = new System.Drawing.Size(1124, 216);
             this.dataGridView30.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn169
@@ -1280,13 +1567,16 @@
             this.Nil.Controls.Add(this.tabControl5);
             this.Nil.Location = new System.Drawing.Point(4, 22);
             this.Nil.Name = "Nil";
-            this.Nil.Size = new System.Drawing.Size(1076, 162);
+            this.Nil.Size = new System.Drawing.Size(1141, 251);
             this.Nil.TabIndex = 2;
-            this.Nil.Text = "NIL";
+            this.Nil.Text = "          NIL          ";
             this.Nil.UseVisualStyleBackColor = true;
             // 
             // tabControl5
             // 
+            this.tabControl5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl5.Controls.Add(this.tabPage5);
             this.tabControl5.Controls.Add(this.tabPage6);
             this.tabControl5.Controls.Add(this.tabPage7);
@@ -1296,7 +1586,7 @@
             this.tabControl5.Location = new System.Drawing.Point(3, 3);
             this.tabControl5.Name = "tabControl5";
             this.tabControl5.SelectedIndex = 0;
-            this.tabControl5.Size = new System.Drawing.Size(1065, 156);
+            this.tabControl5.Size = new System.Drawing.Size(1132, 242);
             this.tabControl5.TabIndex = 2;
             // 
             // tabPage5
@@ -1305,7 +1595,7 @@
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(1057, 130);
+            this.tabPage5.Size = new System.Drawing.Size(1124, 216);
             this.tabPage5.TabIndex = 0;
             this.tabPage5.Text = "B2B";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -1320,9 +1610,10 @@
             this.dataGridViewTextBoxColumn106,
             this.dataGridViewTextBoxColumn107,
             this.dataGridViewTextBoxColumn108});
-            this.dataGridView19.Location = new System.Drawing.Point(-17, 13);
+            this.dataGridView19.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView19.Location = new System.Drawing.Point(3, 3);
             this.dataGridView19.Name = "dataGridView19";
-            this.dataGridView19.Size = new System.Drawing.Size(1090, 105);
+            this.dataGridView19.Size = new System.Drawing.Size(1118, 210);
             this.dataGridView19.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn103
@@ -1367,7 +1658,7 @@
             this.tabPage6.Location = new System.Drawing.Point(4, 22);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(1057, 130);
+            this.tabPage6.Size = new System.Drawing.Size(1124, 216);
             this.tabPage6.TabIndex = 1;
             this.tabPage6.Text = "B2BA";
             this.tabPage6.UseVisualStyleBackColor = true;
@@ -1382,9 +1673,10 @@
             this.dataGridViewTextBoxColumn112,
             this.dataGridViewTextBoxColumn113,
             this.dataGridViewTextBoxColumn114});
-            this.dataGridView20.Location = new System.Drawing.Point(-17, 13);
+            this.dataGridView20.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView20.Location = new System.Drawing.Point(3, 3);
             this.dataGridView20.Name = "dataGridView20";
-            this.dataGridView20.Size = new System.Drawing.Size(1090, 105);
+            this.dataGridView20.Size = new System.Drawing.Size(1118, 210);
             this.dataGridView20.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn109
@@ -1428,7 +1720,7 @@
             this.tabPage7.Controls.Add(this.dataGridView21);
             this.tabPage7.Location = new System.Drawing.Point(4, 22);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Size = new System.Drawing.Size(1057, 130);
+            this.tabPage7.Size = new System.Drawing.Size(1124, 216);
             this.tabPage7.TabIndex = 2;
             this.tabPage7.Text = "B2CL";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -1443,9 +1735,10 @@
             this.dataGridViewTextBoxColumn118,
             this.dataGridViewTextBoxColumn119,
             this.dataGridViewTextBoxColumn120});
-            this.dataGridView21.Location = new System.Drawing.Point(-17, 13);
+            this.dataGridView21.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView21.Location = new System.Drawing.Point(0, 0);
             this.dataGridView21.Name = "dataGridView21";
-            this.dataGridView21.Size = new System.Drawing.Size(1090, 105);
+            this.dataGridView21.Size = new System.Drawing.Size(1124, 216);
             this.dataGridView21.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn115
@@ -1489,7 +1782,7 @@
             this.tabPage8.Controls.Add(this.dataGridView22);
             this.tabPage8.Location = new System.Drawing.Point(4, 22);
             this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Size = new System.Drawing.Size(1057, 130);
+            this.tabPage8.Size = new System.Drawing.Size(1124, 216);
             this.tabPage8.TabIndex = 3;
             this.tabPage8.Text = "B2CLA";
             this.tabPage8.UseVisualStyleBackColor = true;
@@ -1504,9 +1797,10 @@
             this.dataGridViewTextBoxColumn124,
             this.dataGridViewTextBoxColumn125,
             this.dataGridViewTextBoxColumn126});
-            this.dataGridView22.Location = new System.Drawing.Point(-17, 13);
+            this.dataGridView22.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView22.Location = new System.Drawing.Point(0, 0);
             this.dataGridView22.Name = "dataGridView22";
-            this.dataGridView22.Size = new System.Drawing.Size(1090, 105);
+            this.dataGridView22.Size = new System.Drawing.Size(1124, 216);
             this.dataGridView22.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn121
@@ -1550,7 +1844,7 @@
             this.tabPage9.Controls.Add(this.dataGridView23);
             this.tabPage9.Location = new System.Drawing.Point(4, 22);
             this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Size = new System.Drawing.Size(1057, 130);
+            this.tabPage9.Size = new System.Drawing.Size(1124, 216);
             this.tabPage9.TabIndex = 4;
             this.tabPage9.Text = "B2CS";
             this.tabPage9.UseVisualStyleBackColor = true;
@@ -1565,9 +1859,10 @@
             this.dataGridViewTextBoxColumn130,
             this.dataGridViewTextBoxColumn131,
             this.dataGridViewTextBoxColumn132});
-            this.dataGridView23.Location = new System.Drawing.Point(-17, 13);
+            this.dataGridView23.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView23.Location = new System.Drawing.Point(0, 0);
             this.dataGridView23.Name = "dataGridView23";
-            this.dataGridView23.Size = new System.Drawing.Size(1090, 105);
+            this.dataGridView23.Size = new System.Drawing.Size(1124, 216);
             this.dataGridView23.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn127
@@ -1611,7 +1906,7 @@
             this.tabPage10.Controls.Add(this.dataGridView24);
             this.tabPage10.Location = new System.Drawing.Point(4, 22);
             this.tabPage10.Name = "tabPage10";
-            this.tabPage10.Size = new System.Drawing.Size(1057, 130);
+            this.tabPage10.Size = new System.Drawing.Size(1124, 216);
             this.tabPage10.TabIndex = 5;
             this.tabPage10.Text = "B2CSA";
             this.tabPage10.UseVisualStyleBackColor = true;
@@ -1626,9 +1921,10 @@
             this.dataGridViewTextBoxColumn136,
             this.dataGridViewTextBoxColumn137,
             this.dataGridViewTextBoxColumn138});
-            this.dataGridView24.Location = new System.Drawing.Point(-17, 13);
+            this.dataGridView24.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView24.Location = new System.Drawing.Point(0, 0);
             this.dataGridView24.Name = "dataGridView24";
-            this.dataGridView24.Size = new System.Drawing.Size(1090, 105);
+            this.dataGridView24.Size = new System.Drawing.Size(1124, 216);
             this.dataGridView24.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn133
@@ -1672,13 +1968,16 @@
             this.Export_And_Import.Controls.Add(this.tabControl6);
             this.Export_And_Import.Location = new System.Drawing.Point(4, 22);
             this.Export_And_Import.Name = "Export_And_Import";
-            this.Export_And_Import.Size = new System.Drawing.Size(1076, 162);
+            this.Export_And_Import.Size = new System.Drawing.Size(1141, 251);
             this.Export_And_Import.TabIndex = 3;
-            this.Export_And_Import.Text = "Export & Imports";
+            this.Export_And_Import.Text = "          Export & Imports          ";
             this.Export_And_Import.UseVisualStyleBackColor = true;
             // 
             // tabControl6
             // 
+            this.tabControl6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl6.Controls.Add(this.tabPage11);
             this.tabControl6.Controls.Add(this.tabPage12);
             this.tabControl6.Controls.Add(this.tabPage13);
@@ -1688,7 +1987,7 @@
             this.tabControl6.Location = new System.Drawing.Point(3, 3);
             this.tabControl6.Name = "tabControl6";
             this.tabControl6.SelectedIndex = 0;
-            this.tabControl6.Size = new System.Drawing.Size(1065, 156);
+            this.tabControl6.Size = new System.Drawing.Size(1132, 242);
             this.tabControl6.TabIndex = 2;
             // 
             // tabPage11
@@ -1697,7 +1996,7 @@
             this.tabPage11.Location = new System.Drawing.Point(4, 22);
             this.tabPage11.Name = "tabPage11";
             this.tabPage11.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage11.Size = new System.Drawing.Size(1057, 130);
+            this.tabPage11.Size = new System.Drawing.Size(1124, 216);
             this.tabPage11.TabIndex = 0;
             this.tabPage11.Text = "B2B";
             this.tabPage11.UseVisualStyleBackColor = true;
@@ -1712,9 +2011,10 @@
             this.dataGridViewTextBoxColumn70,
             this.dataGridViewTextBoxColumn71,
             this.dataGridViewTextBoxColumn72});
-            this.dataGridView13.Location = new System.Drawing.Point(-17, 13);
+            this.dataGridView13.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView13.Location = new System.Drawing.Point(3, 3);
             this.dataGridView13.Name = "dataGridView13";
-            this.dataGridView13.Size = new System.Drawing.Size(1090, 105);
+            this.dataGridView13.Size = new System.Drawing.Size(1118, 210);
             this.dataGridView13.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn67
@@ -1759,7 +2059,7 @@
             this.tabPage12.Location = new System.Drawing.Point(4, 22);
             this.tabPage12.Name = "tabPage12";
             this.tabPage12.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage12.Size = new System.Drawing.Size(1057, 130);
+            this.tabPage12.Size = new System.Drawing.Size(1124, 216);
             this.tabPage12.TabIndex = 1;
             this.tabPage12.Text = "B2BA";
             this.tabPage12.UseVisualStyleBackColor = true;
@@ -1774,9 +2074,10 @@
             this.dataGridViewTextBoxColumn76,
             this.dataGridViewTextBoxColumn77,
             this.dataGridViewTextBoxColumn78});
-            this.dataGridView14.Location = new System.Drawing.Point(-17, 13);
+            this.dataGridView14.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView14.Location = new System.Drawing.Point(3, 3);
             this.dataGridView14.Name = "dataGridView14";
-            this.dataGridView14.Size = new System.Drawing.Size(1090, 105);
+            this.dataGridView14.Size = new System.Drawing.Size(1118, 210);
             this.dataGridView14.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn73
@@ -1820,7 +2121,7 @@
             this.tabPage13.Controls.Add(this.dataGridView15);
             this.tabPage13.Location = new System.Drawing.Point(4, 22);
             this.tabPage13.Name = "tabPage13";
-            this.tabPage13.Size = new System.Drawing.Size(1057, 130);
+            this.tabPage13.Size = new System.Drawing.Size(1124, 216);
             this.tabPage13.TabIndex = 2;
             this.tabPage13.Text = "B2CL";
             this.tabPage13.UseVisualStyleBackColor = true;
@@ -1835,9 +2136,10 @@
             this.dataGridViewTextBoxColumn82,
             this.dataGridViewTextBoxColumn83,
             this.dataGridViewTextBoxColumn84});
-            this.dataGridView15.Location = new System.Drawing.Point(-17, 13);
+            this.dataGridView15.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView15.Location = new System.Drawing.Point(0, 0);
             this.dataGridView15.Name = "dataGridView15";
-            this.dataGridView15.Size = new System.Drawing.Size(1090, 105);
+            this.dataGridView15.Size = new System.Drawing.Size(1124, 216);
             this.dataGridView15.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn79
@@ -1881,7 +2183,7 @@
             this.tabPage14.Controls.Add(this.dataGridView16);
             this.tabPage14.Location = new System.Drawing.Point(4, 22);
             this.tabPage14.Name = "tabPage14";
-            this.tabPage14.Size = new System.Drawing.Size(1057, 130);
+            this.tabPage14.Size = new System.Drawing.Size(1124, 216);
             this.tabPage14.TabIndex = 3;
             this.tabPage14.Text = "B2CLA";
             this.tabPage14.UseVisualStyleBackColor = true;
@@ -1896,9 +2198,10 @@
             this.dataGridViewTextBoxColumn88,
             this.dataGridViewTextBoxColumn89,
             this.dataGridViewTextBoxColumn90});
-            this.dataGridView16.Location = new System.Drawing.Point(-17, 13);
+            this.dataGridView16.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView16.Location = new System.Drawing.Point(0, 0);
             this.dataGridView16.Name = "dataGridView16";
-            this.dataGridView16.Size = new System.Drawing.Size(1090, 105);
+            this.dataGridView16.Size = new System.Drawing.Size(1124, 216);
             this.dataGridView16.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn85
@@ -1942,7 +2245,7 @@
             this.tabPage15.Controls.Add(this.dataGridView17);
             this.tabPage15.Location = new System.Drawing.Point(4, 22);
             this.tabPage15.Name = "tabPage15";
-            this.tabPage15.Size = new System.Drawing.Size(1057, 130);
+            this.tabPage15.Size = new System.Drawing.Size(1124, 216);
             this.tabPage15.TabIndex = 4;
             this.tabPage15.Text = "B2CS";
             this.tabPage15.UseVisualStyleBackColor = true;
@@ -1957,9 +2260,10 @@
             this.dataGridViewTextBoxColumn94,
             this.dataGridViewTextBoxColumn95,
             this.dataGridViewTextBoxColumn96});
-            this.dataGridView17.Location = new System.Drawing.Point(-17, 13);
+            this.dataGridView17.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView17.Location = new System.Drawing.Point(0, 0);
             this.dataGridView17.Name = "dataGridView17";
-            this.dataGridView17.Size = new System.Drawing.Size(1090, 105);
+            this.dataGridView17.Size = new System.Drawing.Size(1124, 216);
             this.dataGridView17.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn91
@@ -2003,7 +2307,7 @@
             this.tabPage16.Controls.Add(this.dataGridView18);
             this.tabPage16.Location = new System.Drawing.Point(4, 22);
             this.tabPage16.Name = "tabPage16";
-            this.tabPage16.Size = new System.Drawing.Size(1057, 130);
+            this.tabPage16.Size = new System.Drawing.Size(1124, 216);
             this.tabPage16.TabIndex = 5;
             this.tabPage16.Text = "B2CSA";
             this.tabPage16.UseVisualStyleBackColor = true;
@@ -2018,9 +2322,10 @@
             this.dataGridViewTextBoxColumn100,
             this.dataGridViewTextBoxColumn101,
             this.dataGridViewTextBoxColumn102});
-            this.dataGridView18.Location = new System.Drawing.Point(-17, 13);
+            this.dataGridView18.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView18.Location = new System.Drawing.Point(0, 0);
             this.dataGridView18.Name = "dataGridView18";
-            this.dataGridView18.Size = new System.Drawing.Size(1090, 105);
+            this.dataGridView18.Size = new System.Drawing.Size(1124, 216);
             this.dataGridView18.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn97
@@ -2064,13 +2369,16 @@
             this.Advance_Tax.Controls.Add(this.tabControl7);
             this.Advance_Tax.Location = new System.Drawing.Point(4, 22);
             this.Advance_Tax.Name = "Advance_Tax";
-            this.Advance_Tax.Size = new System.Drawing.Size(1076, 162);
+            this.Advance_Tax.Size = new System.Drawing.Size(1141, 251);
             this.Advance_Tax.TabIndex = 4;
-            this.Advance_Tax.Text = "Advance Tax";
+            this.Advance_Tax.Text = "          Advance Tax          ";
             this.Advance_Tax.UseVisualStyleBackColor = true;
             // 
             // tabControl7
             // 
+            this.tabControl7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl7.Controls.Add(this.tabPage17);
             this.tabControl7.Controls.Add(this.tabPage18);
             this.tabControl7.Controls.Add(this.tabPage19);
@@ -2080,7 +2388,7 @@
             this.tabControl7.Location = new System.Drawing.Point(3, 3);
             this.tabControl7.Name = "tabControl7";
             this.tabControl7.SelectedIndex = 0;
-            this.tabControl7.Size = new System.Drawing.Size(1065, 156);
+            this.tabControl7.Size = new System.Drawing.Size(1132, 242);
             this.tabControl7.TabIndex = 2;
             // 
             // tabPage17
@@ -2089,7 +2397,7 @@
             this.tabPage17.Location = new System.Drawing.Point(4, 22);
             this.tabPage17.Name = "tabPage17";
             this.tabPage17.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage17.Size = new System.Drawing.Size(1057, 130);
+            this.tabPage17.Size = new System.Drawing.Size(1124, 216);
             this.tabPage17.TabIndex = 0;
             this.tabPage17.Text = "B2B";
             this.tabPage17.UseVisualStyleBackColor = true;
@@ -2104,9 +2412,10 @@
             this.dataGridViewTextBoxColumn34,
             this.dataGridViewTextBoxColumn35,
             this.dataGridViewTextBoxColumn36});
-            this.dataGridView7.Location = new System.Drawing.Point(-17, 13);
+            this.dataGridView7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView7.Location = new System.Drawing.Point(3, 3);
             this.dataGridView7.Name = "dataGridView7";
-            this.dataGridView7.Size = new System.Drawing.Size(1090, 105);
+            this.dataGridView7.Size = new System.Drawing.Size(1118, 210);
             this.dataGridView7.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn31
@@ -2151,7 +2460,7 @@
             this.tabPage18.Location = new System.Drawing.Point(4, 22);
             this.tabPage18.Name = "tabPage18";
             this.tabPage18.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage18.Size = new System.Drawing.Size(1057, 130);
+            this.tabPage18.Size = new System.Drawing.Size(1124, 216);
             this.tabPage18.TabIndex = 1;
             this.tabPage18.Text = "B2BA";
             this.tabPage18.UseVisualStyleBackColor = true;
@@ -2166,9 +2475,10 @@
             this.dataGridViewTextBoxColumn40,
             this.dataGridViewTextBoxColumn41,
             this.dataGridViewTextBoxColumn42});
-            this.dataGridView8.Location = new System.Drawing.Point(-17, 13);
+            this.dataGridView8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView8.Location = new System.Drawing.Point(3, 3);
             this.dataGridView8.Name = "dataGridView8";
-            this.dataGridView8.Size = new System.Drawing.Size(1090, 105);
+            this.dataGridView8.Size = new System.Drawing.Size(1118, 210);
             this.dataGridView8.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn37
@@ -2212,7 +2522,7 @@
             this.tabPage19.Controls.Add(this.dataGridView9);
             this.tabPage19.Location = new System.Drawing.Point(4, 22);
             this.tabPage19.Name = "tabPage19";
-            this.tabPage19.Size = new System.Drawing.Size(1057, 130);
+            this.tabPage19.Size = new System.Drawing.Size(1124, 216);
             this.tabPage19.TabIndex = 2;
             this.tabPage19.Text = "B2CL";
             this.tabPage19.UseVisualStyleBackColor = true;
@@ -2227,9 +2537,10 @@
             this.dataGridViewTextBoxColumn46,
             this.dataGridViewTextBoxColumn47,
             this.dataGridViewTextBoxColumn48});
-            this.dataGridView9.Location = new System.Drawing.Point(-17, 13);
+            this.dataGridView9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView9.Location = new System.Drawing.Point(0, 0);
             this.dataGridView9.Name = "dataGridView9";
-            this.dataGridView9.Size = new System.Drawing.Size(1090, 105);
+            this.dataGridView9.Size = new System.Drawing.Size(1124, 216);
             this.dataGridView9.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn43
@@ -2273,7 +2584,7 @@
             this.tabPage20.Controls.Add(this.dataGridView10);
             this.tabPage20.Location = new System.Drawing.Point(4, 22);
             this.tabPage20.Name = "tabPage20";
-            this.tabPage20.Size = new System.Drawing.Size(1057, 130);
+            this.tabPage20.Size = new System.Drawing.Size(1124, 216);
             this.tabPage20.TabIndex = 3;
             this.tabPage20.Text = "B2CLA";
             this.tabPage20.UseVisualStyleBackColor = true;
@@ -2288,9 +2599,10 @@
             this.dataGridViewTextBoxColumn52,
             this.dataGridViewTextBoxColumn53,
             this.dataGridViewTextBoxColumn54});
-            this.dataGridView10.Location = new System.Drawing.Point(-17, 13);
+            this.dataGridView10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView10.Location = new System.Drawing.Point(0, 0);
             this.dataGridView10.Name = "dataGridView10";
-            this.dataGridView10.Size = new System.Drawing.Size(1090, 105);
+            this.dataGridView10.Size = new System.Drawing.Size(1124, 216);
             this.dataGridView10.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn49
@@ -2334,7 +2646,7 @@
             this.tabPage21.Controls.Add(this.dataGridView11);
             this.tabPage21.Location = new System.Drawing.Point(4, 22);
             this.tabPage21.Name = "tabPage21";
-            this.tabPage21.Size = new System.Drawing.Size(1057, 130);
+            this.tabPage21.Size = new System.Drawing.Size(1124, 216);
             this.tabPage21.TabIndex = 4;
             this.tabPage21.Text = "B2CS";
             this.tabPage21.UseVisualStyleBackColor = true;
@@ -2349,9 +2661,10 @@
             this.dataGridViewTextBoxColumn58,
             this.dataGridViewTextBoxColumn59,
             this.dataGridViewTextBoxColumn60});
-            this.dataGridView11.Location = new System.Drawing.Point(-17, 13);
+            this.dataGridView11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView11.Location = new System.Drawing.Point(0, 0);
             this.dataGridView11.Name = "dataGridView11";
-            this.dataGridView11.Size = new System.Drawing.Size(1090, 105);
+            this.dataGridView11.Size = new System.Drawing.Size(1124, 216);
             this.dataGridView11.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn55
@@ -2395,7 +2708,7 @@
             this.tabPage22.Controls.Add(this.dataGridView12);
             this.tabPage22.Location = new System.Drawing.Point(4, 22);
             this.tabPage22.Name = "tabPage22";
-            this.tabPage22.Size = new System.Drawing.Size(1057, 130);
+            this.tabPage22.Size = new System.Drawing.Size(1124, 216);
             this.tabPage22.TabIndex = 5;
             this.tabPage22.Text = "B2CSA";
             this.tabPage22.UseVisualStyleBackColor = true;
@@ -2410,9 +2723,10 @@
             this.dataGridViewTextBoxColumn64,
             this.dataGridViewTextBoxColumn65,
             this.dataGridViewTextBoxColumn66});
-            this.dataGridView12.Location = new System.Drawing.Point(-17, 13);
+            this.dataGridView12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView12.Location = new System.Drawing.Point(0, 0);
             this.dataGridView12.Name = "dataGridView12";
-            this.dataGridView12.Size = new System.Drawing.Size(1090, 105);
+            this.dataGridView12.Size = new System.Drawing.Size(1124, 216);
             this.dataGridView12.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn61
@@ -2456,13 +2770,16 @@
             this.Tax_Paid.Controls.Add(this.tabControl8);
             this.Tax_Paid.Location = new System.Drawing.Point(4, 22);
             this.Tax_Paid.Name = "Tax_Paid";
-            this.Tax_Paid.Size = new System.Drawing.Size(1076, 162);
+            this.Tax_Paid.Size = new System.Drawing.Size(1141, 251);
             this.Tax_Paid.TabIndex = 5;
-            this.Tax_Paid.Text = "Tax Paid";
+            this.Tax_Paid.Text = "          Tax Paid          ";
             this.Tax_Paid.UseVisualStyleBackColor = true;
             // 
             // tabControl8
             // 
+            this.tabControl8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl8.Controls.Add(this.tabPage23);
             this.tabControl8.Controls.Add(this.tabPage24);
             this.tabControl8.Controls.Add(this.tabPage25);
@@ -2472,7 +2789,7 @@
             this.tabControl8.Location = new System.Drawing.Point(3, 3);
             this.tabControl8.Name = "tabControl8";
             this.tabControl8.SelectedIndex = 0;
-            this.tabControl8.Size = new System.Drawing.Size(1109, 143);
+            this.tabControl8.Size = new System.Drawing.Size(1132, 242);
             this.tabControl8.TabIndex = 2;
             // 
             // tabPage23
@@ -2481,7 +2798,7 @@
             this.tabPage23.Location = new System.Drawing.Point(4, 22);
             this.tabPage23.Name = "tabPage23";
             this.tabPage23.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage23.Size = new System.Drawing.Size(1101, 117);
+            this.tabPage23.Size = new System.Drawing.Size(1124, 216);
             this.tabPage23.TabIndex = 0;
             this.tabPage23.Text = "B2B";
             this.tabPage23.UseVisualStyleBackColor = true;
@@ -2496,9 +2813,10 @@
             this.Invoice_No,
             this.Invoice_Date,
             this.Taxable_Amount});
-            this.dataGridView1.Location = new System.Drawing.Point(3, 6);
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView1.Location = new System.Drawing.Point(3, 3);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(1090, 105);
+            this.dataGridView1.Size = new System.Drawing.Size(1118, 210);
             this.dataGridView1.TabIndex = 0;
             // 
             // SrNo
@@ -2543,7 +2861,7 @@
             this.tabPage24.Location = new System.Drawing.Point(4, 22);
             this.tabPage24.Name = "tabPage24";
             this.tabPage24.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage24.Size = new System.Drawing.Size(1101, 117);
+            this.tabPage24.Size = new System.Drawing.Size(1124, 216);
             this.tabPage24.TabIndex = 1;
             this.tabPage24.Text = "B2BA";
             this.tabPage24.UseVisualStyleBackColor = true;
@@ -2558,9 +2876,10 @@
             this.dataGridViewTextBoxColumn4,
             this.dataGridViewTextBoxColumn5,
             this.dataGridViewTextBoxColumn6});
-            this.dataGridView2.Location = new System.Drawing.Point(5, 6);
+            this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView2.Location = new System.Drawing.Point(3, 3);
             this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(1090, 105);
+            this.dataGridView2.Size = new System.Drawing.Size(1118, 210);
             this.dataGridView2.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn1
@@ -2604,7 +2923,7 @@
             this.tabPage25.Controls.Add(this.dataGridView3);
             this.tabPage25.Location = new System.Drawing.Point(4, 22);
             this.tabPage25.Name = "tabPage25";
-            this.tabPage25.Size = new System.Drawing.Size(1101, 117);
+            this.tabPage25.Size = new System.Drawing.Size(1124, 216);
             this.tabPage25.TabIndex = 2;
             this.tabPage25.Text = "B2CL";
             this.tabPage25.UseVisualStyleBackColor = true;
@@ -2619,9 +2938,10 @@
             this.dataGridViewTextBoxColumn10,
             this.dataGridViewTextBoxColumn11,
             this.dataGridViewTextBoxColumn12});
-            this.dataGridView3.Location = new System.Drawing.Point(5, 6);
+            this.dataGridView3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView3.Location = new System.Drawing.Point(0, 0);
             this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.Size = new System.Drawing.Size(1090, 105);
+            this.dataGridView3.Size = new System.Drawing.Size(1124, 216);
             this.dataGridView3.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn7
@@ -2665,7 +2985,7 @@
             this.tabPage26.Controls.Add(this.dataGridView4);
             this.tabPage26.Location = new System.Drawing.Point(4, 22);
             this.tabPage26.Name = "tabPage26";
-            this.tabPage26.Size = new System.Drawing.Size(1101, 117);
+            this.tabPage26.Size = new System.Drawing.Size(1124, 216);
             this.tabPage26.TabIndex = 3;
             this.tabPage26.Text = "B2CLA";
             this.tabPage26.UseVisualStyleBackColor = true;
@@ -2680,9 +3000,10 @@
             this.dataGridViewTextBoxColumn16,
             this.dataGridViewTextBoxColumn17,
             this.dataGridViewTextBoxColumn18});
-            this.dataGridView4.Location = new System.Drawing.Point(5, 6);
+            this.dataGridView4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView4.Location = new System.Drawing.Point(0, 0);
             this.dataGridView4.Name = "dataGridView4";
-            this.dataGridView4.Size = new System.Drawing.Size(1090, 105);
+            this.dataGridView4.Size = new System.Drawing.Size(1124, 216);
             this.dataGridView4.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn13
@@ -2726,7 +3047,7 @@
             this.tabPage27.Controls.Add(this.dataGridView5);
             this.tabPage27.Location = new System.Drawing.Point(4, 22);
             this.tabPage27.Name = "tabPage27";
-            this.tabPage27.Size = new System.Drawing.Size(1101, 117);
+            this.tabPage27.Size = new System.Drawing.Size(1124, 216);
             this.tabPage27.TabIndex = 4;
             this.tabPage27.Text = "B2CS";
             this.tabPage27.UseVisualStyleBackColor = true;
@@ -2741,9 +3062,10 @@
             this.dataGridViewTextBoxColumn22,
             this.dataGridViewTextBoxColumn23,
             this.dataGridViewTextBoxColumn24});
-            this.dataGridView5.Location = new System.Drawing.Point(5, 6);
+            this.dataGridView5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView5.Location = new System.Drawing.Point(0, 0);
             this.dataGridView5.Name = "dataGridView5";
-            this.dataGridView5.Size = new System.Drawing.Size(1090, 105);
+            this.dataGridView5.Size = new System.Drawing.Size(1124, 216);
             this.dataGridView5.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn19
@@ -2787,7 +3109,7 @@
             this.tabPage28.Controls.Add(this.dataGridView6);
             this.tabPage28.Location = new System.Drawing.Point(4, 22);
             this.tabPage28.Name = "tabPage28";
-            this.tabPage28.Size = new System.Drawing.Size(1101, 117);
+            this.tabPage28.Size = new System.Drawing.Size(1124, 216);
             this.tabPage28.TabIndex = 5;
             this.tabPage28.Text = "B2CSA";
             this.tabPage28.UseVisualStyleBackColor = true;
@@ -2802,9 +3124,10 @@
             this.dataGridViewTextBoxColumn28,
             this.dataGridViewTextBoxColumn29,
             this.dataGridViewTextBoxColumn30});
-            this.dataGridView6.Location = new System.Drawing.Point(5, 6);
+            this.dataGridView6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView6.Location = new System.Drawing.Point(0, 0);
             this.dataGridView6.Name = "dataGridView6";
-            this.dataGridView6.Size = new System.Drawing.Size(1090, 105);
+            this.dataGridView6.Size = new System.Drawing.Size(1124, 216);
             this.dataGridView6.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn25
@@ -2843,267 +3166,35 @@
             this.dataGridViewTextBoxColumn30.Name = "dataGridViewTextBoxColumn30";
             this.dataGridViewTextBoxColumn30.Width = 174;
             // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.panel4.Controls.Add(this.label2);
-            this.panel4.Controls.Add(this.label10);
-            this.panel4.Controls.Add(this.pictureBox4);
-            this.panel4.Location = new System.Drawing.Point(866, 20);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(250, 100);
-            this.panel4.TabIndex = 20;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(33, 41);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(37, 19);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "0.00";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label10.Location = new System.Drawing.Point(3, 16);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(110, 15);
-            this.label10.TabIndex = 7;
-            this.label10.Text = "Total SGST Amount";
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.Goldenrod;
-            this.panel5.Controls.Add(this.label9);
-            this.panel5.Controls.Add(this.label8);
-            this.panel5.Controls.Add(this.pictureBox3);
-            this.panel5.Location = new System.Drawing.Point(581, 20);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(250, 100);
-            this.panel5.TabIndex = 19;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label9.Location = new System.Drawing.Point(33, 41);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(37, 19);
-            this.label9.TabIndex = 8;
-            this.label9.Text = "0.00";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label8.Location = new System.Drawing.Point(3, 16);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(111, 15);
-            this.label8.TabIndex = 7;
-            this.label8.Text = "Total CGST Amount";
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.panel6.Controls.Add(this.label6);
-            this.panel6.Controls.Add(this.label7);
-            this.panel6.Controls.Add(this.pictureBox2);
-            this.panel6.Location = new System.Drawing.Point(298, 20);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(250, 100);
-            this.panel6.TabIndex = 18;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label6.Location = new System.Drawing.Point(40, 41);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(37, 19);
-            this.label6.TabIndex = 7;
-            this.label6.Text = "0.00";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label7.Location = new System.Drawing.Point(3, 16);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(107, 15);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "Total IGST Amount";
-            // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.Color.Tomato;
-            this.panel7.Controls.Add(this.label4);
-            this.panel7.Controls.Add(this.label3);
-            this.panel7.Controls.Add(this.label5);
-            this.panel7.Controls.Add(this.label13);
-            this.panel7.Controls.Add(this.pictureBox5);
-            this.panel7.Location = new System.Drawing.Point(11, 20);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(250, 100);
-            this.panel7.TabIndex = 17;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label4.Location = new System.Drawing.Point(36, 41);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(37, 19);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "0.00";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(3, 31);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(0, 13);
-            this.label3.TabIndex = 2;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(20, 56);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(0, 13);
-            this.label5.TabIndex = 4;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label13.Location = new System.Drawing.Point(3, 16);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(124, 15);
-            this.label13.TabIndex = 1;
-            this.label13.Text = "Total Taxable Amount";
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::SpiceGsp.Properties.Resources.total_amount;
-            this.pictureBox4.Location = new System.Drawing.Point(189, 19);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(49, 51);
-            this.pictureBox4.TabIndex = 0;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::SpiceGsp.Properties.Resources.total_amount;
-            this.pictureBox3.Location = new System.Drawing.Point(191, 19);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(49, 51);
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::SpiceGsp.Properties.Resources.tax_amount;
-            this.pictureBox2.Location = new System.Drawing.Point(186, 19);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(54, 50);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::SpiceGsp.Properties.Resources.total_tax;
-            this.pictureBox5.Location = new System.Drawing.Point(191, 20);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(55, 51);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 0;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::SpiceGsp.Properties.Resources.logo;
-            this.pictureBox1.Location = new System.Drawing.Point(70, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(71, 37);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // dataGridViewTextBoxColumn175
-            // 
-            this.dataGridViewTextBoxColumn175.HeaderText = "Sr No.";
-            this.dataGridViewTextBoxColumn175.Name = "dataGridViewTextBoxColumn175";
-            this.dataGridViewTextBoxColumn175.Width = 174;
-            // 
-            // dataGridViewTextBoxColumn176
-            // 
-            this.dataGridViewTextBoxColumn176.HeaderText = "Customer_GSTIN";
-            this.dataGridViewTextBoxColumn176.Name = "dataGridViewTextBoxColumn176";
-            this.dataGridViewTextBoxColumn176.Width = 174;
-            // 
-            // dataGridViewTextBoxColumn177
-            // 
-            this.dataGridViewTextBoxColumn177.HeaderText = "Vendor Name";
-            this.dataGridViewTextBoxColumn177.Name = "dataGridViewTextBoxColumn177";
-            this.dataGridViewTextBoxColumn177.Width = 174;
-            // 
-            // dataGridViewTextBoxColumn178
-            // 
-            this.dataGridViewTextBoxColumn178.HeaderText = "Invoice No.";
-            this.dataGridViewTextBoxColumn178.Name = "dataGridViewTextBoxColumn178";
-            this.dataGridViewTextBoxColumn178.Width = 174;
-            // 
-            // dataGridViewTextBoxColumn179
-            // 
-            this.dataGridViewTextBoxColumn179.HeaderText = "Invoice Date";
-            this.dataGridViewTextBoxColumn179.Name = "dataGridViewTextBoxColumn179";
-            this.dataGridViewTextBoxColumn179.Width = 178;
-            // 
-            // dataGridViewTextBoxColumn180
-            // 
-            this.dataGridViewTextBoxColumn180.HeaderText = "Taxable Amount";
-            this.dataGridViewTextBoxColumn180.Name = "dataGridViewTextBoxColumn180";
-            this.dataGridViewTextBoxColumn180.Width = 178;
-            // 
-            // btn_cross
-            // 
-            this.btn_cross.BackColor = System.Drawing.Color.RoyalBlue;
-            this.btn_cross.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_cross.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn_cross.Location = new System.Drawing.Point(1124, 0);
-            this.btn_cross.Name = "btn_cross";
-            this.btn_cross.Size = new System.Drawing.Size(21, 21);
-            this.btn_cross.TabIndex = 4;
-            this.btn_cross.Text = "X";
-            this.btn_cross.UseVisualStyleBackColor = false;
-            // 
             // DataItemOfCSV
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1146, 433);
+            this.ClientSize = new System.Drawing.Size(1216, 509);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "DataItemOfCSV";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DataItemOfCSV";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.tabControl2.ResumeLayout(false);
             this.Invoices.ResumeLayout(false);
             this.tabControl3.ResumeLayout(false);
@@ -3189,19 +3280,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
             this.tabPage28.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).EndInit();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -3533,6 +3611,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn178;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn179;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn180;
-        private System.Windows.Forms.Button btn_cross;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Button button1;
     }
 }

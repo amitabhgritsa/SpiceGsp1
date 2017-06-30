@@ -26,5 +26,19 @@ namespace SpiceGsp
         {
             this.tabPage4.ForeColor = Color.Red;
         }
+
+        private void btn_cross_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            DataItemOfCSV dicsv = new DataItemOfCSV();
+            dicsv.Show();
+        }
+
+
     }
 }

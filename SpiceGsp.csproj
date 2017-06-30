@@ -87,17 +87,17 @@
     <Compile Include="Add_GSTIN.Designer.cs">
       <DependentUpon>Add_GSTIN.cs</DependentUpon>
     </Compile>
+    <Compile Include="AfterLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AfterLogin.Designer.cs">
+      <DependentUpon>AfterLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="BeforeFillingCheckList.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="BeforeFillingCheckList.Designer.cs">
       <DependentUpon>BeforeFillingCheckList.cs</DependentUpon>
-    </Compile>
-    <Compile Include="DashBoard.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DashBoard.Designer.cs">
-      <DependentUpon>DashBoard.cs</DependentUpon>
     </Compile>
     <Compile Include="DataItemOfCSV.cs">
       <SubType>Form</SubType>
@@ -105,17 +105,17 @@
     <Compile Include="DataItemOfCSV.Designer.cs">
       <DependentUpon>DataItemOfCSV.cs</DependentUpon>
     </Compile>
+    <Compile Include="EditItemData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditItemData.Designer.cs">
+      <DependentUpon>EditItemData.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forgot_Password.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forgot_Password.Designer.cs">
       <DependentUpon>Forgot_Password.cs</DependentUpon>
-    </Compile>
-    <Compile Include="HomeScreen.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="HomeScreen.Designer.cs">
-      <DependentUpon>HomeScreen.cs</DependentUpon>
     </Compile>
     <Compile Include="Registration.cs">
       <SubType>Form</SubType>
@@ -147,12 +147,6 @@
     <Compile Include="AfterProceedingToGSTR1.Designer.cs">
       <DependentUpon>AfterProceedingToGSTR1.cs</DependentUpon>
     </Compile>
-    <Compile Include="AllGSTR1ReturnStatuses.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AllGSTR1ReturnStatuses.Designer.cs">
-      <DependentUpon>AllGSTR1ReturnStatuses.cs</DependentUpon>
-    </Compile>
     <Compile Include="login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -167,17 +161,20 @@
     <EmbeddedResource Include="Add_GSTIN.resx">
       <DependentUpon>Add_GSTIN.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AfterLogin.resx">
+      <DependentUpon>AfterLogin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BeforeFillingCheckList.resx">
       <DependentUpon>BeforeFillingCheckList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DataItemOfCSV.resx">
       <DependentUpon>DataItemOfCSV.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="EditItemData.resx">
+      <DependentUpon>EditItemData.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forgot_Password.resx">
       <DependentUpon>Forgot_Password.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="HomeScreen.resx">
-      <DependentUpon>HomeScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>

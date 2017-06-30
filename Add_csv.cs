@@ -17,6 +17,9 @@ namespace SpiceGsp
             InitializeComponent();
         }
 
-        
+        private void btn_cross_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
     }
 }

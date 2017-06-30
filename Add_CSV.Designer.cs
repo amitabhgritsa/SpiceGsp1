@@ -111,29 +111,29 @@
             this.panel6 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.dateTimePickerYear = new System.Windows.Forms.DateTimePicker();
             this.dateTimePickerMonth = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
+            this.btn_Purchase = new System.Windows.Forms.Button();
+            this.btn_sell = new System.Windows.Forms.Button();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.btn_Purchase = new System.Windows.Forms.Button();
-            this.btn_sell = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btn_cross = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -149,13 +149,13 @@
             this.taxPaid.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
             this.panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -168,7 +168,7 @@
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1027, 564);
+            this.panel1.Size = new System.Drawing.Size(1265, 685);
             this.panel1.TabIndex = 0;
             // 
             // tabControl1
@@ -183,7 +183,7 @@
             this.tabControl1.Location = new System.Drawing.Point(3, 49);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1021, 515);
+            this.tabControl1.Size = new System.Drawing.Size(1259, 636);
             this.tabControl1.TabIndex = 2;
             // 
             // tabPage1
@@ -191,7 +191,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1013, 489);
+            this.tabPage1.Size = new System.Drawing.Size(1251, 610);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "     GSTIN Management     ";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -211,7 +211,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1013, 489);
+            this.tabPage2.Size = new System.Drawing.Size(1251, 610);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "     InVoice Management     ";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -221,7 +221,7 @@
             this.GSTR1Link.BackColor = System.Drawing.Color.RoyalBlue;
             this.GSTR1Link.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GSTR1Link.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.GSTR1Link.Location = new System.Drawing.Point(743, 453);
+            this.GSTR1Link.Location = new System.Drawing.Point(941, 577);
             this.GSTR1Link.Name = "GSTR1Link";
             this.GSTR1Link.Size = new System.Drawing.Size(192, 33);
             this.GSTR1Link.TabIndex = 13;
@@ -233,7 +233,7 @@
             this.button3.BackColor = System.Drawing.Color.RoyalBlue;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button3.Location = new System.Drawing.Point(941, 335);
+            this.button3.Location = new System.Drawing.Point(1158, 337);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(66, 35);
             this.button3.TabIndex = 12;
@@ -245,7 +245,7 @@
             this.button2.BackColor = System.Drawing.Color.ForestGreen;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button2.Location = new System.Drawing.Point(941, 285);
+            this.button2.Location = new System.Drawing.Point(1158, 287);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(66, 35);
             this.button2.TabIndex = 11;
@@ -257,7 +257,7 @@
             this.btn_csv.BackColor = System.Drawing.Color.Red;
             this.btn_csv.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_csv.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_csv.Location = new System.Drawing.Point(941, 233);
+            this.btn_csv.Location = new System.Drawing.Point(1158, 233);
             this.btn_csv.Name = "btn_csv";
             this.btn_csv.Size = new System.Drawing.Size(66, 39);
             this.btn_csv.TabIndex = 9;
@@ -269,7 +269,7 @@
             this.btn_AddCsv.BackColor = System.Drawing.Color.Red;
             this.btn_AddCsv.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_AddCsv.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_AddCsv.Location = new System.Drawing.Point(941, 384);
+            this.btn_AddCsv.Location = new System.Drawing.Point(1158, 390);
             this.btn_AddCsv.Name = "btn_AddCsv";
             this.btn_AddCsv.Size = new System.Drawing.Size(66, 35);
             this.btn_AddCsv.TabIndex = 8;
@@ -286,7 +286,7 @@
             this.tabControl.Location = new System.Drawing.Point(16, 211);
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
-            this.tabControl.Size = new System.Drawing.Size(919, 239);
+            this.tabControl.Size = new System.Drawing.Size(1117, 304);
             this.tabControl.TabIndex = 7;
             // 
             // invoices
@@ -296,7 +296,7 @@
             this.invoices.Location = new System.Drawing.Point(4, 22);
             this.invoices.Name = "invoices";
             this.invoices.Padding = new System.Windows.Forms.Padding(3);
-            this.invoices.Size = new System.Drawing.Size(911, 213);
+            this.invoices.Size = new System.Drawing.Size(1109, 278);
             this.invoices.TabIndex = 0;
             this.invoices.Text = "Invoices ()";
             this.invoices.UseVisualStyleBackColor = true;
@@ -319,7 +319,7 @@
             this.Action});
             this.dataGridView1.Location = new System.Drawing.Point(3, 0);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(945, 119);
+            this.dataGridView1.Size = new System.Drawing.Size(1103, 119);
             this.dataGridView1.TabIndex = 7;
             // 
             // SrNo
@@ -759,7 +759,7 @@
             this.panel6.Controls.Add(this.label9);
             this.panel6.Controls.Add(this.label10);
             this.panel6.Controls.Add(this.pictureBox4);
-            this.panel6.Location = new System.Drawing.Point(636, 89);
+            this.panel6.Location = new System.Drawing.Point(885, 89);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(260, 100);
             this.panel6.TabIndex = 6;
@@ -786,13 +786,22 @@
             this.label10.TabIndex = 7;
             this.label10.Text = "Total Amount";
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::SpiceGsp.Properties.Resources.total_amount;
+            this.pictureBox4.Location = new System.Drawing.Point(199, 19);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(49, 51);
+            this.pictureBox4.TabIndex = 0;
+            this.pictureBox4.TabStop = false;
+            // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.panel5.Controls.Add(this.label7);
             this.panel5.Controls.Add(this.label8);
             this.panel5.Controls.Add(this.pictureBox3);
-            this.panel5.Location = new System.Drawing.Point(331, 89);
+            this.panel5.Location = new System.Drawing.Point(446, 89);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(260, 100);
             this.panel5.TabIndex = 3;
@@ -819,6 +828,16 @@
             this.label8.TabIndex = 6;
             this.label8.Text = "Total Tax Amount";
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::SpiceGsp.Properties.Resources.tax_amount;
+            this.pictureBox3.Location = new System.Drawing.Point(194, 19);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(54, 50);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
+            // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.Tomato;
@@ -827,7 +846,7 @@
             this.panel4.Controls.Add(this.label5);
             this.panel4.Controls.Add(this.label6);
             this.panel4.Controls.Add(this.pictureBox2);
-            this.panel4.Location = new System.Drawing.Point(25, 89);
+            this.panel4.Location = new System.Drawing.Point(16, 89);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(260, 100);
             this.panel4.TabIndex = 2;
@@ -870,6 +889,16 @@
             this.label6.TabIndex = 1;
             this.label6.Text = "Taxable Total Amount";
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::SpiceGsp.Properties.Resources.total_tax;
+            this.pictureBox2.Location = new System.Drawing.Point(191, 20);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(55, 51);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.ControlLightLight;
@@ -881,7 +910,7 @@
             this.panel3.Controls.Add(this.btn_sell);
             this.panel3.Location = new System.Drawing.Point(16, 6);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(919, 65);
+            this.panel3.Size = new System.Drawing.Size(1129, 65);
             this.panel3.TabIndex = 1;
             // 
             // dateTimePickerYear
@@ -907,6 +936,32 @@
             this.label2.Size = new System.Drawing.Size(120, 15);
             this.label2.TabIndex = 2;
             this.label2.Text = "Financial Period :";
+            // 
+            // btn_Purchase
+            // 
+            this.btn_Purchase.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Purchase.ForeColor = System.Drawing.SystemColors.HotTrack;
+            //this.btn_Purchase.Image = global::SpiceGsp.Properties.Resources.purchase_icon_blue;
+            this.btn_Purchase.Location = new System.Drawing.Point(142, 17);
+            this.btn_Purchase.Name = "btn_Purchase";
+            this.btn_Purchase.Size = new System.Drawing.Size(120, 40);
+            this.btn_Purchase.TabIndex = 1;
+            this.btn_Purchase.Text = "Purchase";
+            this.btn_Purchase.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_Purchase.UseVisualStyleBackColor = true;
+            // 
+            // btn_sell
+            // 
+            this.btn_sell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_sell.ForeColor = System.Drawing.SystemColors.HotTrack;
+            //this.btn_sell.Image = global::SpiceGsp.Properties.Resources.sell_icon_blue;
+            this.btn_sell.Location = new System.Drawing.Point(16, 17);
+            this.btn_sell.Name = "btn_sell";
+            this.btn_sell.Size = new System.Drawing.Size(120, 40);
+            this.btn_sell.TabIndex = 0;
+            this.btn_sell.Text = "Sell";
+            this.btn_sell.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_sell.UseVisualStyleBackColor = true;
             // 
             // tabPage3
             // 
@@ -939,83 +994,8 @@
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1024, 46);
+            this.panel2.Size = new System.Drawing.Size(1262, 46);
             this.panel2.TabIndex = 0;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(399, 18);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(181, 16);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "GSTIN : 27GSPMH1721G1ZU";
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::SpiceGsp.Properties.Resources.total_amount;
-            this.pictureBox4.Location = new System.Drawing.Point(199, 19);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(49, 51);
-            this.pictureBox4.TabIndex = 0;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::SpiceGsp.Properties.Resources.tax_amount;
-            this.pictureBox3.Location = new System.Drawing.Point(194, 19);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(54, 50);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::SpiceGsp.Properties.Resources.total_tax;
-            this.pictureBox2.Location = new System.Drawing.Point(191, 20);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(55, 51);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
-            // btn_Purchase
-            // 
-            this.btn_Purchase.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Purchase.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.btn_Purchase.Image = global::SpiceGsp.Properties.Resources.purchase_icon_blue;
-            this.btn_Purchase.Location = new System.Drawing.Point(142, 17);
-            this.btn_Purchase.Name = "btn_Purchase";
-            this.btn_Purchase.Size = new System.Drawing.Size(120, 40);
-            this.btn_Purchase.TabIndex = 1;
-            this.btn_Purchase.Text = "Purchase";
-            this.btn_Purchase.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_Purchase.UseVisualStyleBackColor = true;
-            // 
-            // btn_sell
-            // 
-            this.btn_sell.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_sell.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.btn_sell.Image = global::SpiceGsp.Properties.Resources.sell_icon_blue;
-            this.btn_sell.Location = new System.Drawing.Point(16, 17);
-            this.btn_sell.Name = "btn_sell";
-            this.btn_sell.Size = new System.Drawing.Size(120, 40);
-            this.btn_sell.TabIndex = 0;
-            this.btn_sell.Text = "Sell";
-            this.btn_sell.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_sell.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::SpiceGsp.Properties.Resources.logo;
-            this.pictureBox1.Location = new System.Drawing.Point(69, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(56, 40);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // btn_cross
             // 
@@ -1028,14 +1008,35 @@
             this.btn_cross.TabIndex = 2;
             this.btn_cross.Text = "X";
             this.btn_cross.UseVisualStyleBackColor = false;
+            this.btn_cross.Click += new System.EventHandler(this.btn_cross_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.Control;
+            this.label1.Location = new System.Drawing.Point(399, 18);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(181, 16);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "GSTIN : 27GSPMH1721G1ZU";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::SpiceGsp.Properties.Resources.logo;
+            this.pictureBox1.Location = new System.Drawing.Point(69, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(56, 40);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // Add_csv
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1026, 560);
+            this.ClientSize = new System.Drawing.Size(1264, 681);
             this.Controls.Add(this.panel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximumSize = new System.Drawing.Size(1280, 720);
             this.Name = "Add_csv";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add CSV";
@@ -1055,17 +1056,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

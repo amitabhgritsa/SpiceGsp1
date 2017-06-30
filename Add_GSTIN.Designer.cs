@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btn_cross = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -46,7 +47,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.btn_login = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.btn_cross = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,6 +60,19 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(592, 43);
             this.panel1.TabIndex = 0;
+            // 
+            // btn_cross
+            // 
+            this.btn_cross.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btn_cross.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_cross.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_cross.Location = new System.Drawing.Point(568, 3);
+            this.btn_cross.Name = "btn_cross";
+            this.btn_cross.Size = new System.Drawing.Size(21, 21);
+            this.btn_cross.TabIndex = 2;
+            this.btn_cross.Text = "X";
+            this.btn_cross.UseVisualStyleBackColor = false;
+            this.btn_cross.Click += new System.EventHandler(this.btn_cross_Click);
             // 
             // label8
             // 
@@ -215,23 +229,22 @@
             this.button1.Text = "Cancel";
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // btn_cross
+            // button2
             // 
-            this.btn_cross.BackColor = System.Drawing.Color.RoyalBlue;
-            this.btn_cross.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_cross.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn_cross.Location = new System.Drawing.Point(568, 3);
-            this.btn_cross.Name = "btn_cross";
-            this.btn_cross.Size = new System.Drawing.Size(21, 21);
-            this.btn_cross.TabIndex = 2;
-            this.btn_cross.Text = "X";
-            this.btn_cross.UseVisualStyleBackColor = false;
+            this.button2.Location = new System.Drawing.Point(479, 316);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(72, 23);
+            this.button2.TabIndex = 17;
+            this.button2.Text = "Close All";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Add_GSTIN
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(591, 353);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btn_login);
             this.Controls.Add(this.label7);
@@ -281,5 +294,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button btn_cross;
+        private System.Windows.Forms.Button button2;
     }
 }

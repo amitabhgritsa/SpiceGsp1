@@ -17,9 +17,17 @@ namespace SpiceGsp
             InitializeComponent();
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
+       
 
+        private void btn_cross_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Before_AfterUploadingCSV bfcsv = new Before_AfterUploadingCSV();
+            bfcsv.Show();  
         }
     }
 }

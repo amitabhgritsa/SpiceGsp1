@@ -42,6 +42,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.btn_cross = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -52,6 +53,7 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.pictureBox1);
@@ -63,9 +65,10 @@
             this.panel1.Controls.Add(this.Txt_Email);
             this.panel1.Controls.Add(this.link_Register);
             this.panel1.Controls.Add(this.panel2);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(630, 309);
+            this.panel1.Size = new System.Drawing.Size(625, 333);
             this.panel1.TabIndex = 0;
             // 
             // label2
@@ -103,25 +106,25 @@
             // 
             this.link_forgotPassword.AutoSize = true;
             this.link_forgotPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.link_forgotPassword.Location = new System.Drawing.Point(201, 267);
+            this.link_forgotPassword.Location = new System.Drawing.Point(208, 264);
             this.link_forgotPassword.Name = "link_forgotPassword";
             this.link_forgotPassword.Size = new System.Drawing.Size(110, 16);
             this.link_forgotPassword.TabIndex = 4;
             this.link_forgotPassword.TabStop = true;
             this.link_forgotPassword.Text = "Forgot Password";
+            this.link_forgotPassword.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.link_forgotPassword_LinkClicked);
             // 
             // btn_login
             // 
             this.btn_login.BackColor = System.Drawing.Color.RoyalBlue;
             this.btn_login.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_login.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_login.Location = new System.Drawing.Point(259, 226);
+            this.btn_login.Location = new System.Drawing.Point(266, 223);
             this.btn_login.Name = "btn_login";
             this.btn_login.Size = new System.Drawing.Size(121, 27);
             this.btn_login.TabIndex = 3;
             this.btn_login.Text = "LOGIN";
             this.btn_login.UseVisualStyleBackColor = false;
-            this.btn_login.Click += new System.EventHandler(this.btn_login_Click);
             // 
             // Email
             // 
@@ -153,7 +156,6 @@
             this.Txt_Password.Size = new System.Drawing.Size(337, 20);
             this.Txt_Password.TabIndex = 2;
             this.Txt_Password.UseSystemPasswordChar = true;
-            this.Txt_Password.Validating += new System.ComponentModel.CancelEventHandler(this.Txt_Password_Validating);
             // 
             // Txt_Email
             // 
@@ -161,18 +163,18 @@
             this.Txt_Email.Name = "Txt_Email";
             this.Txt_Email.Size = new System.Drawing.Size(337, 20);
             this.Txt_Email.TabIndex = 1;
-            this.Txt_Email.Validating += new System.ComponentModel.CancelEventHandler(this.Txt_Email_Validating);
             // 
             // link_Register
             // 
             this.link_Register.AutoSize = true;
             this.link_Register.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.link_Register.Location = new System.Drawing.Point(332, 267);
+            this.link_Register.Location = new System.Drawing.Point(339, 264);
             this.link_Register.Name = "link_Register";
             this.link_Register.Size = new System.Drawing.Size(89, 16);
             this.link_Register.TabIndex = 5;
             this.link_Register.TabStop = true;
             this.link_Register.Text = "Register Now";
+            this.link_Register.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.link_Register_LinkClicked);
             // 
             // panel2
             // 
@@ -180,9 +182,9 @@
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.btn_cross);
             this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Location = new System.Drawing.Point(-1, -1);
+            this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(626, 90);
+            this.panel2.Size = new System.Drawing.Size(624, 90);
             this.panel2.TabIndex = 0;
             // 
             // btn_cross
@@ -190,7 +192,7 @@
             this.btn_cross.BackColor = System.Drawing.Color.RoyalBlue;
             this.btn_cross.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_cross.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn_cross.Location = new System.Drawing.Point(605, -1);
+            this.btn_cross.Location = new System.Drawing.Point(599, 0);
             this.btn_cross.Name = "btn_cross";
             this.btn_cross.Size = new System.Drawing.Size(21, 21);
             this.btn_cross.TabIndex = 6;
@@ -200,7 +202,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::SpiceGsp.Properties.Resources.login_logo;
+            this.pictureBox2.Image = global::SpiceGsp.Properties.Resources.logo;
             this.pictureBox2.Location = new System.Drawing.Point(259, 11);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(106, 65);
@@ -208,11 +210,21 @@
             this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(545, 305);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "Next";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(625, 307);
+            this.ClientSize = new System.Drawing.Size(625, 333);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "login";
@@ -244,5 +256,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btn_cross;
+        private System.Windows.Forms.Button button1;
     }
 }

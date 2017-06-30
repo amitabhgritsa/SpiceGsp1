@@ -26,5 +26,16 @@ namespace SpiceGsp
         {
             this.tabPage4.ForeColor = Color.Red;
         }
+
+        private void btn_cross_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Add_Company acompany = new Add_Company();
+            acompany.Show();
+        }
     }
 }

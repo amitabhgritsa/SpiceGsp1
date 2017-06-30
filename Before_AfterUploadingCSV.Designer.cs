@@ -32,6 +32,18 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.GSTR1Link = new System.Windows.Forms.Button();
             this.btn_AddCsv = new System.Windows.Forms.Button();
             this.tabControl = new System.Windows.Forms.TabControl();
@@ -105,17 +117,6 @@
             this.dataGridViewTextBoxColumn46 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn47 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn48 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.dateTimePickerYear = new System.Windows.Forms.DateTimePicker();
             this.dateTimePickerMonth = new System.Windows.Forms.DateTimePicker();
@@ -123,17 +124,21 @@
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.btn_Purchase = new System.Windows.Forms.Button();
             this.btn_sell = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btn_cross = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
+            this.panel7.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.panel6.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.tabControl.SuspendLayout();
             this.invoices.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -145,14 +150,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
             this.taxPaid.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
-            this.panel4.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel6.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -165,7 +167,7 @@
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1033, 538);
+            this.panel1.Size = new System.Drawing.Size(1234, 685);
             this.panel1.TabIndex = 0;
             // 
             // tabControl1
@@ -180,7 +182,7 @@
             this.tabControl1.Location = new System.Drawing.Point(3, 49);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1027, 486);
+            this.tabControl1.Size = new System.Drawing.Size(1228, 633);
             this.tabControl1.TabIndex = 2;
             // 
             // tabPage1
@@ -188,34 +190,161 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1019, 460);
+            this.tabPage1.Size = new System.Drawing.Size(1220, 607);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "     GSTIN Management     ";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.panel7);
             this.tabPage2.Controls.Add(this.GSTR1Link);
             this.tabPage2.Controls.Add(this.btn_AddCsv);
             this.tabPage2.Controls.Add(this.tabControl);
-            this.tabPage2.Controls.Add(this.panel4);
-            this.tabPage2.Controls.Add(this.panel5);
-            this.tabPage2.Controls.Add(this.panel6);
             this.tabPage2.Controls.Add(this.panel3);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1019, 460);
+            this.tabPage2.Size = new System.Drawing.Size(1220, 607);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "     InVoice Management     ";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // panel7
+            // 
+            this.panel7.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.panel7.Controls.Add(this.panel5);
+            this.panel7.Controls.Add(this.panel6);
+            this.panel7.Controls.Add(this.panel4);
+            this.panel7.Location = new System.Drawing.Point(153, 99);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(928, 111);
+            this.panel7.TabIndex = 12;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.Tomato;
+            this.panel5.Controls.Add(this.label4);
+            this.panel5.Controls.Add(this.label3);
+            this.panel5.Controls.Add(this.label5);
+            this.panel5.Controls.Add(this.label6);
+            this.panel5.Controls.Add(this.pictureBox2);
+            this.panel5.Location = new System.Drawing.Point(3, 11);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(260, 86);
+            this.panel5.TabIndex = 6;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label4.Location = new System.Drawing.Point(36, 41);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(37, 19);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "0.00";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(3, 31);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(0, 13);
+            this.label3.TabIndex = 2;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(20, 56);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(0, 13);
+            this.label5.TabIndex = 4;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label6.Location = new System.Drawing.Point(3, 16);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(124, 15);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "Taxable Total Amount";
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.panel6.Controls.Add(this.label7);
+            this.panel6.Controls.Add(this.label10);
+            this.panel6.Controls.Add(this.pictureBox4);
+            this.panel6.Location = new System.Drawing.Point(331, 11);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(260, 86);
+            this.panel6.TabIndex = 7;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label7.Location = new System.Drawing.Point(40, 41);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(37, 19);
+            this.label7.TabIndex = 7;
+            this.label7.Text = "0.00";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label10.Location = new System.Drawing.Point(3, 16);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(101, 15);
+            this.label10.TabIndex = 6;
+            this.label10.Text = "Total Tax Amount";
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.Goldenrod;
+            this.panel4.Controls.Add(this.label9);
+            this.panel4.Controls.Add(this.label8);
+            this.panel4.Controls.Add(this.pictureBox3);
+            this.panel4.Location = new System.Drawing.Point(662, 11);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(260, 86);
+            this.panel4.TabIndex = 8;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label9.Location = new System.Drawing.Point(33, 41);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(37, 19);
+            this.label9.TabIndex = 8;
+            this.label9.Text = "0.00";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label8.Location = new System.Drawing.Point(3, 16);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(81, 15);
+            this.label8.TabIndex = 7;
+            this.label8.Text = "Total Amount";
+            // 
             // GSTR1Link
             // 
+            this.GSTR1Link.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.GSTR1Link.BackColor = System.Drawing.Color.RoyalBlue;
             this.GSTR1Link.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GSTR1Link.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.GSTR1Link.Location = new System.Drawing.Point(759, 431);
+            this.GSTR1Link.Location = new System.Drawing.Point(1022, 571);
             this.GSTR1Link.Name = "GSTR1Link";
             this.GSTR1Link.Size = new System.Drawing.Size(192, 33);
             this.GSTR1Link.TabIndex = 11;
@@ -224,27 +353,31 @@
             // 
             // btn_AddCsv
             // 
+            this.btn_AddCsv.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_AddCsv.BackColor = System.Drawing.Color.Red;
             this.btn_AddCsv.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_AddCsv.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_AddCsv.Location = new System.Drawing.Point(953, 383);
+            this.btn_AddCsv.Location = new System.Drawing.Point(1148, 474);
             this.btn_AddCsv.Name = "btn_AddCsv";
-            this.btn_AddCsv.Size = new System.Drawing.Size(66, 35);
+            this.btn_AddCsv.Size = new System.Drawing.Size(62, 52);
             this.btn_AddCsv.TabIndex = 10;
             this.btn_AddCsv.Text = "+";
             this.btn_AddCsv.UseVisualStyleBackColor = false;
             // 
             // tabControl
             // 
+            this.tabControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl.Controls.Add(this.invoices);
             this.tabControl.Controls.Add(this.creditNotes);
             this.tabControl.Controls.Add(this.exportAndImport);
             this.tabControl.Controls.Add(this.advanceTax);
             this.tabControl.Controls.Add(this.taxPaid);
-            this.tabControl.Location = new System.Drawing.Point(33, 218);
+            this.tabControl.Location = new System.Drawing.Point(72, 227);
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
-            this.tabControl.Size = new System.Drawing.Size(918, 200);
+            this.tabControl.Size = new System.Drawing.Size(1070, 338);
             this.tabControl.TabIndex = 9;
             // 
             // invoices
@@ -254,7 +387,7 @@
             this.invoices.Location = new System.Drawing.Point(4, 22);
             this.invoices.Name = "invoices";
             this.invoices.Padding = new System.Windows.Forms.Padding(3);
-            this.invoices.Size = new System.Drawing.Size(910, 174);
+            this.invoices.Size = new System.Drawing.Size(1062, 312);
             this.invoices.TabIndex = 0;
             this.invoices.Text = "Invoices ()";
             this.invoices.UseVisualStyleBackColor = true;
@@ -275,9 +408,10 @@
             this.sgst,
             this.CessAmt,
             this.Action});
-            this.dataGridView1.Location = new System.Drawing.Point(3, 0);
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView1.Location = new System.Drawing.Point(3, 3);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(945, 119);
+            this.dataGridView1.Size = new System.Drawing.Size(1056, 306);
             this.dataGridView1.TabIndex = 7;
             // 
             // SrNo
@@ -347,7 +481,7 @@
             this.creditNotes.Location = new System.Drawing.Point(4, 22);
             this.creditNotes.Name = "creditNotes";
             this.creditNotes.Padding = new System.Windows.Forms.Padding(3);
-            this.creditNotes.Size = new System.Drawing.Size(910, 133);
+            this.creditNotes.Size = new System.Drawing.Size(1062, 312);
             this.creditNotes.TabIndex = 1;
             this.creditNotes.Text = "Credit Notes ()";
             this.creditNotes.UseVisualStyleBackColor = true;
@@ -368,9 +502,10 @@
             this.dataGridViewTextBoxColumn10,
             this.dataGridViewTextBoxColumn11,
             this.dataGridViewTextBoxColumn12});
-            this.dataGridView2.Location = new System.Drawing.Point(-17, 7);
+            this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView2.Location = new System.Drawing.Point(3, 3);
             this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(945, 119);
+            this.dataGridView2.Size = new System.Drawing.Size(1056, 306);
             this.dataGridView2.TabIndex = 8;
             // 
             // dataGridViewTextBoxColumn1
@@ -440,7 +575,7 @@
             this.exportAndImport.Location = new System.Drawing.Point(4, 22);
             this.exportAndImport.Name = "exportAndImport";
             this.exportAndImport.Padding = new System.Windows.Forms.Padding(3);
-            this.exportAndImport.Size = new System.Drawing.Size(910, 133);
+            this.exportAndImport.Size = new System.Drawing.Size(1062, 312);
             this.exportAndImport.TabIndex = 2;
             this.exportAndImport.Text = "Export & Imports ()";
             this.exportAndImport.UseVisualStyleBackColor = true;
@@ -461,9 +596,10 @@
             this.dataGridViewTextBoxColumn22,
             this.dataGridViewTextBoxColumn23,
             this.dataGridViewTextBoxColumn24});
-            this.dataGridView3.Location = new System.Drawing.Point(-17, 7);
+            this.dataGridView3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView3.Location = new System.Drawing.Point(3, 3);
             this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.Size = new System.Drawing.Size(945, 119);
+            this.dataGridView3.Size = new System.Drawing.Size(1056, 306);
             this.dataGridView3.TabIndex = 8;
             // 
             // dataGridViewTextBoxColumn13
@@ -533,7 +669,7 @@
             this.advanceTax.Location = new System.Drawing.Point(4, 22);
             this.advanceTax.Name = "advanceTax";
             this.advanceTax.Padding = new System.Windows.Forms.Padding(3);
-            this.advanceTax.Size = new System.Drawing.Size(910, 133);
+            this.advanceTax.Size = new System.Drawing.Size(1062, 312);
             this.advanceTax.TabIndex = 3;
             this.advanceTax.Text = "Advance Tax ()";
             this.advanceTax.UseVisualStyleBackColor = true;
@@ -554,9 +690,10 @@
             this.dataGridViewTextBoxColumn34,
             this.dataGridViewTextBoxColumn35,
             this.dataGridViewTextBoxColumn36});
-            this.dataGridView4.Location = new System.Drawing.Point(-17, 7);
+            this.dataGridView4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView4.Location = new System.Drawing.Point(3, 3);
             this.dataGridView4.Name = "dataGridView4";
-            this.dataGridView4.Size = new System.Drawing.Size(945, 119);
+            this.dataGridView4.Size = new System.Drawing.Size(1056, 306);
             this.dataGridView4.TabIndex = 8;
             // 
             // dataGridViewTextBoxColumn25
@@ -625,13 +762,14 @@
             this.taxPaid.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.taxPaid.Location = new System.Drawing.Point(4, 22);
             this.taxPaid.Name = "taxPaid";
-            this.taxPaid.Size = new System.Drawing.Size(910, 133);
+            this.taxPaid.Size = new System.Drawing.Size(1062, 312);
             this.taxPaid.TabIndex = 4;
             this.taxPaid.Text = "Tax Paid ()";
             this.taxPaid.UseVisualStyleBackColor = true;
             // 
             // dataGridView5
             // 
+            this.dataGridView5.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView5.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn37,
@@ -646,9 +784,10 @@
             this.dataGridViewTextBoxColumn46,
             this.dataGridViewTextBoxColumn47,
             this.dataGridViewTextBoxColumn48});
-            this.dataGridView5.Location = new System.Drawing.Point(-17, 7);
+            this.dataGridView5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView5.Location = new System.Drawing.Point(0, 0);
             this.dataGridView5.Name = "dataGridView5";
-            this.dataGridView5.Size = new System.Drawing.Size(945, 119);
+            this.dataGridView5.Size = new System.Drawing.Size(1062, 312);
             this.dataGridView5.TabIndex = 8;
             // 
             // dataGridViewTextBoxColumn37
@@ -711,125 +850,10 @@
             this.dataGridViewTextBoxColumn48.HeaderText = "Action";
             this.dataGridViewTextBoxColumn48.Name = "dataGridViewTextBoxColumn48";
             // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.Goldenrod;
-            this.panel4.Controls.Add(this.label9);
-            this.panel4.Controls.Add(this.label8);
-            this.panel4.Controls.Add(this.pictureBox3);
-            this.panel4.Location = new System.Drawing.Point(691, 107);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(260, 100);
-            this.panel4.TabIndex = 8;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label9.Location = new System.Drawing.Point(33, 41);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(37, 19);
-            this.label9.TabIndex = 8;
-            this.label9.Text = "0.00";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label8.Location = new System.Drawing.Point(3, 16);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(81, 15);
-            this.label8.TabIndex = 7;
-            this.label8.Text = "Total Amount";
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.Tomato;
-            this.panel5.Controls.Add(this.label4);
-            this.panel5.Controls.Add(this.label3);
-            this.panel5.Controls.Add(this.label5);
-            this.panel5.Controls.Add(this.label6);
-            this.panel5.Controls.Add(this.pictureBox2);
-            this.panel5.Location = new System.Drawing.Point(32, 107);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(260, 100);
-            this.panel5.TabIndex = 6;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label4.Location = new System.Drawing.Point(36, 41);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(37, 19);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "0.00";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(3, 31);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(0, 13);
-            this.label3.TabIndex = 2;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(20, 56);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(0, 13);
-            this.label5.TabIndex = 4;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label6.Location = new System.Drawing.Point(3, 16);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(124, 15);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "Taxable Total Amount";
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.panel6.Controls.Add(this.label7);
-            this.panel6.Controls.Add(this.label10);
-            this.panel6.Controls.Add(this.pictureBox4);
-            this.panel6.Location = new System.Drawing.Point(360, 107);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(260, 100);
-            this.panel6.TabIndex = 7;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label7.Location = new System.Drawing.Point(40, 41);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(37, 19);
-            this.label7.TabIndex = 7;
-            this.label7.Text = "0.00";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label10.Location = new System.Drawing.Point(3, 16);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(101, 15);
-            this.label10.TabIndex = 6;
-            this.label10.Text = "Total Tax Amount";
-            // 
             // panel3
             // 
+            this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel3.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.dateTimePickerYear);
@@ -839,28 +863,35 @@
             this.panel3.Controls.Add(this.btn_sell);
             this.panel3.Location = new System.Drawing.Point(32, 21);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(919, 66);
+            this.panel3.Size = new System.Drawing.Size(1161, 66);
             this.panel3.TabIndex = 1;
             // 
             // dateTimePickerYear
             // 
-            this.dateTimePickerYear.Location = new System.Drawing.Point(709, 17);
+            this.dateTimePickerYear.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.dateTimePickerYear.CustomFormat = "yyyy";
+            this.dateTimePickerYear.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePickerYear.Location = new System.Drawing.Point(1071, 17);
             this.dateTimePickerYear.Name = "dateTimePickerYear";
-            this.dateTimePickerYear.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePickerYear.Size = new System.Drawing.Size(85, 20);
             this.dateTimePickerYear.TabIndex = 4;
             // 
             // dateTimePickerMonth
             // 
-            this.dateTimePickerMonth.Location = new System.Drawing.Point(488, 17);
+            this.dateTimePickerMonth.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.dateTimePickerMonth.CustomFormat = "MMMM";
+            this.dateTimePickerMonth.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePickerMonth.Location = new System.Drawing.Point(977, 17);
             this.dateTimePickerMonth.Name = "dateTimePickerMonth";
-            this.dateTimePickerMonth.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePickerMonth.Size = new System.Drawing.Size(85, 20);
             this.dateTimePickerMonth.TabIndex = 3;
             // 
             // label2
             // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(362, 17);
+            this.label2.Location = new System.Drawing.Point(854, 20);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(120, 15);
             this.label2.TabIndex = 2;
@@ -871,7 +902,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1019, 460);
+            this.tabPage3.Size = new System.Drawing.Size(1220, 607);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "        Returns        ";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -882,7 +913,7 @@
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(1019, 460);
+            this.tabPage4.Size = new System.Drawing.Size(1220, 607);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "        Reconcilation        ";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -894,33 +925,36 @@
             this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.BackColor = System.Drawing.Color.RoyalBlue;
-            this.panel2.Controls.Add(this.btn_cross);
+            this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1030, 46);
+            this.panel2.Size = new System.Drawing.Size(1231, 46);
             this.panel2.TabIndex = 0;
+            // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.Location = new System.Drawing.Point(1156, 11);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Next";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(399, 18);
+            this.label1.Location = new System.Drawing.Point(494, 18);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(181, 16);
             this.label1.TabIndex = 1;
             this.label1.Text = "GSTIN : 27GSPMH1721G1ZU";
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::SpiceGsp.Properties.Resources.total_amount;
-            this.pictureBox3.Location = new System.Drawing.Point(199, 19);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(49, 51);
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
             // 
             // pictureBox2
             // 
@@ -941,6 +975,15 @@
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::SpiceGsp.Properties.Resources.total_amount;
+            this.pictureBox3.Location = new System.Drawing.Point(199, 19);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(49, 51);
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
             // 
             // btn_Purchase
             // 
@@ -978,31 +1021,26 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // btn_cross
-            // 
-            this.btn_cross.BackColor = System.Drawing.Color.RoyalBlue;
-            this.btn_cross.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_cross.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn_cross.Location = new System.Drawing.Point(1009, 3);
-            this.btn_cross.Name = "btn_cross";
-            this.btn_cross.Size = new System.Drawing.Size(21, 21);
-            this.btn_cross.TabIndex = 3;
-            this.btn_cross.Text = "X";
-            this.btn_cross.UseVisualStyleBackColor = false;
-            // 
             // Before_AfterUploadingCSV
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1032, 534);
+            this.ClientSize = new System.Drawing.Size(1233, 681);
             this.Controls.Add(this.panel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Before_AfterUploadingCSV";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Before/After Uploading CSV";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel1.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
+            this.panel7.ResumeLayout(false);
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             this.tabControl.ResumeLayout(false);
             this.invoices.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -1014,19 +1052,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
             this.taxPaid.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -1136,6 +1168,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn48;
         private System.Windows.Forms.Button btn_AddCsv;
         private System.Windows.Forms.Button GSTR1Link;
-        private System.Windows.Forms.Button btn_cross;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Button button1;
     }
 }

@@ -16,5 +16,16 @@ namespace SpiceGsp
         {
             InitializeComponent();
         }
+
+        private void btn_cross_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            EditItemData edata = new EditItemData();
+            edata.Show();
+        }
     }
 }
